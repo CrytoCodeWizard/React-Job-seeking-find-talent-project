@@ -10,7 +10,6 @@ export default  function LandingPage() {
             <Section1 />
             <Section2 />
             <Footer />
-
       </>
   );
 }
