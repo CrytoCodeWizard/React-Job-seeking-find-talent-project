@@ -42,6 +42,8 @@ export default function Section2() {
         background-color: #4139a7;
         color: white;
         cursor: pointer;
+        border-radius: 5px;
+        border: none;
         font-size: 18px;
         height: 50px;
     }

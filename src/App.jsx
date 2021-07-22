@@ -1,8 +1,12 @@
 import LandingPage from "./Components/LandingPage/LandingPage";
+import Recruit from "./Components/Recruit/Recruit";
 
 function App() {
   return (
-    <LandingPage />
+    <>
+    {/* <LandingPage /> */}
+    <Recruit />
+    </>
   );
 }
 
