@@ -1,0 +1,42 @@
+.wrapper{
+    background-color: #F2F8FF;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 8px 24px;
+}
+.imgBox>img{
+    width: 140px;
+    margin-left: 16px;
+}
+.leftBox{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.leftBox>img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.leftBox>div{
+    align-items: center;
+    display: flex;
+}
+.leftBox>div>img{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: 10px;
+}
+.leftBox p{
+  font-size: 14px;  
+}
+.leftBox span{
+font-size: 12px;
+color: #7a7a7a;
+}

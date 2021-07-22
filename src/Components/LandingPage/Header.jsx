@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import logo from './../../logo.svg'
+import { Link } from "react-router-dom";
 const Wrapper = styled.div`
 width: 100%;
 background: #fff;
@@ -75,7 +76,9 @@ export default function Header() {
       <nav>
         <Left>
           <div><img src={logo} alt="logo"/></div>
+          <Link to="jobs">
           <div><a href="/">STARTUP JOBS</a></div>
+          </Link>
           <div><a href="/">RECRUIT</a></div>
           <div><a href="/">INVEST</a></div>
           <div><a href="/">BLOG</a></div>

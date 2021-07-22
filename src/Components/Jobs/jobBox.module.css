@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 960px;
+    margin:auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #e4e7f0;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #fff;
+    position: relative;
+}
+.nameBox{
+    display: flex;
+}
+.imgBox{
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #f2f4f7;
+    background-color: #fff;
+}
+.imgBox>img{
+    width: 100%;
+    height: 100%;
+}
+.nameBox>div>h2{
+    color: #050c26;
+    line-height: 1.25;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.nameBox>div>p{
+    color: #050c26;
+    font-size: 14px;
+    line-height: 1.5;
+    line-height: 1.25;
+}
+.nameBox>div>span{
+    font-size: 11px;
+    color: #7b91b1;
+    text-transform: uppercase;
+}
+.active{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    width: 100%;
+}
+.active{
+background-color: #E1FAF3;
+margin-top: 20px;
+color: #005A37;
+width: fit-content;
+padding: 3px 10px;
+border-radius: 10px;
+}
+.active>p{
+font-size: 11px;
+}
+
+.jobDetails{
+   display: flex; 
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #e4e7f0;
+   justify-content: space-between;
+}
+.jobDetails>div{
+    display: flex;
+}
+.jobDetails>div>p{
+    margin: 5px;
+}
+.jobDetails>div>span{
+    margin: 5px;
+    color: #005A37;
+    font-size: 12px;
+}
+.jobDetails>div>button{
+    background-color: white;
+    color: #0F6FFF;
+    border-radius: 4px;
+    padding: 8px  12px;
+    border: solid 1px #0F6FFF;
+}
+.jobDetails>div>button:hover{
+    color: white;
+    background-color: #0F6FFF;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.bottom>div{
+    display: flex;
+}
+.bottom>div>img{
+    width:100%;
+}
+.bottom>div>p{
+    margin-left: 5px;
+}
+.bottom>div>p:hover{
+    text-decoration: underline;
+}
+.bottom>div:nth-child(2)>img{
+    margin-top: 5px;
+}

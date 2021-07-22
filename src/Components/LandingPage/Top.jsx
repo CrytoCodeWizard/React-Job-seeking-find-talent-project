@@ -4,6 +4,7 @@ const Wrapper = styled.div`
 width: 100%;
 max-width: 1136px;
 margin: auto;
+margin-bottom: 144px;
 `;
 
 const TopBox = styled.div`
@@ -11,6 +12,7 @@ const TopBox = styled.div`
     padding: 88px 0;
     text-align: center;
     margin: auto;
+
 img{
     width: 150px;
 }
