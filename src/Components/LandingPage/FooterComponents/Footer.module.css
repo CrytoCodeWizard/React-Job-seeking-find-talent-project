@@ -1,0 +1,235 @@
+.container {
+    width: 100%;
+    /* max-width: 1136px; */
+    margin: 20px auto 0;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    min-width: 320px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+.footerHeadingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    margin: 20px 0 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto 32px;
+    text-align: left;
+}
+
+.footerHeading {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 500;
+    margin: 60px 0 0 ;
+    padding: 20px 0 0;
+    border: 0;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+.paragraph {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: #0a6cff;
+    cursor: pointer;
+}
+
+.paragraph:hover{
+    text-decoration: underline;
+}
+
+
+.footerElementContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    margin: 0 0 64px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.footerElementContainer>img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    height: 238px;
+    max-height: 238px;
+}
+
+
+
+.footerElementContainer>h3 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.footerElementContainer>h3:hover{
+    text-decoration: underline;
+}
+
+.desc {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.category {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.footerElementOuterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto 32px;
+    cursor: pointer;
+}
+
+.footerSectionDiv {
+    text-align: center;
+    background: #000;
+    padding: 40px;
+
+}
+
+.footerSectionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    max-width: 1136px;
+    margin: 0 auto;
+
+
+}
+
+.footerElementBox {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 64px;
+    max-width: 224px;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 224px;
+
+}
+
+.footerElementBox>h3,
+.footerElementWideBox>h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.footerElementWideBox {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 64px;
+    margin-right: 16px;
+    max-width: 272px;
+    width: 272px;
+
+}
+
+
+
+
+.footerSection {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+.footerSection:nth-child(n):hover,
+.footerElementWideBox>h3:hover,
+.footerElementBox>h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottomLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    color: rgb(245, 244, 244);
+    align-items: center;
+    cursor: pointer;
+}
+
+.bottomLinks>img {
+    margin-right: 24px;
+    width: 25px;
+    height: 36px;
+
+}
+
+.bottomLinks>div {
+    margin-right: 16px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 1.67;
+}
+
+.bottomLinks>div:hover {
+    text-decoration: underline;
+}
