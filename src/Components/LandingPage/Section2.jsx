@@ -17,9 +17,8 @@ export default function Section2() {
 
     p{
         font-size: 20px;
-        margin-bottom: -30px;
     }
-    p: nth-child(3){
+    p:nth-child(3){
         font-size: 25px;
         // margin-bottom: -30px;
     }
@@ -163,17 +162,17 @@ export default function Section2() {
             </Left>
 
             <Right>
-            <img src= "download.jpg"/>
+            <img src= "download.jpg" alt=""/>
             </Right>
 
             <Bottom>
-            <img src= "download1.png"/>
+            <img src= "download1.png" alt=""/>
             <h1>Discover the best new products, every day.</h1>
             <button>Explore Products</button>
             </Bottom>
             
             <ImgDiv>
-            <Img src= "download2.png"></Img>
+            <Img src= "download2.png" alt=""></Img>
             </ImgDiv>
             
         </Main>
