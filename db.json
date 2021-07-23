@@ -4,188 +4,188 @@
       "id": 1,
       "name": "Moveworks",
       "desc": "Instant help at work",
-      "employees":"201-500 EMPLOYEES",
-      "image":"https://photos.angel.co/startups/i/6899437-cf011492eafda08309550576aa859b8b-medium_jpg.jpg?buster=1626384757",
-      "job":"Front-End Developer ",
-      "location":"Mumbai",
-      "salaryMin":4,
-      "salaryMax":10
+      "employees": "201-500 EMPLOYEES",
+      "image": "https://photos.angel.co/startups/i/6899437-cf011492eafda08309550576aa859b8b-medium_jpg.jpg?buster=1626384757",
+      "job": "Front-End Developer ",
+      "location": "Mumbai",
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
       "id": 2,
       "name": "Amberstudent",
       "desc": "Long-term accommodation booking platform for students",
-      "employees":"51-200 EMPLOYEES",
-      "image":"https://photos.angel.co/startups/i/2599012-8f09b4519134649d6a37dbd52e1de3c2-medium_jpg.jpg?buster=1594300525",
-      "job":"Front-End Developer ",
-      "location":"Mumbai",
-      "salaryMin":3,
-      "salaryMax":8
+      "employees": "51-200 EMPLOYEES",
+      "image": "https://photos.angel.co/startups/i/2599012-8f09b4519134649d6a37dbd52e1de3c2-medium_jpg.jpg?buster=1594300525",
+      "job": "Front-End Developer ",
+      "location": "Mumbai",
+      "salaryMin": 3,
+      "salaryMax": 8
     },
     {
-      "id":3,
+      "id": 3,
       "name": "SuperTokens",
       "desc": "SuperTokens (YC S20) is an open source alternative to Auth0 / Firebase Auth / AWS Cognito",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/7138999-477596e1a50204b35d58b65e5b0561a4-medium_jpg.jpg?buster=1566286037",
       "job": "Fullstack Engineer",
       "location": "India • United States • United Kingdom • Remote possible",
-      "salaryMin":5,
-      "salaryMax":12
+      "salaryMin": 5,
+      "salaryMax": 12
     },
     {
-      "id":4,
+      "id": 4,
       "name": "Jackfruit",
       "desc": "Simplifying the jargon behind, & enabling Indians to understand & manage Personal Finance",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/3196833-6cf6d64bec34de8642f61364a9151dbf-medium_jpg.jpg?buster=1567579436",
       "job": "Fullstack engineer",
       "location": "Mumbai • Remote possible",
-      "salaryMin":4,
-      "salaryMax":10
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
-      "id":5,
+      "id": 5,
       "name": "Equity Data Science",
       "desc": "Quantitative Analytics for Fundamental Investors",
       "employees": "11-50 employees",
       "image": "https://photos.angel.co/startups/i/8406198-85d0c8e99b0799527046e2af3d54367c-medium_jpg.jpg?buster=1625001369",
       "job": "Fullstack Engineer",
       "location": "Mumbai",
-      "salaryMin":8,
-      "salaryMax":14
+      "salaryMin": 8,
+      "salaryMax": 14
     },
     {
-      "id":6,
+      "id": 6,
       "name": "Arbaan GT",
       "desc": "A Software service firm Specialised in  INTEGRATION AS A SERVICE",
       "employees": "11-50 employees",
       "image": "https://photos.angel.co/startups/i/4060090-8feb66c742933c6999849b7bb5ec02bd-medium_jpg.jpg?buster=1600756523",
       "job": "Senior Full-Stack Developer",
       "location": "Chennai",
-      "salaryMin":2,
-      "salaryMax":5
+      "salaryMin": 2,
+      "salaryMax": 5
     },
     {
-      "id":7,
+      "id": 7,
       "name": "Typeset",
       "desc": "Google Docs For Research. Join us if you want to solve Challenging Technology problems!",
       "employees": "11-50 employees",
       "image": "https://photos.angel.co/startups/i/517943-03ae92ca8a409131651b57a1da8f48c6-medium_jpg.jpg?buster=1466089412",
       "job": "Senior FullStack Engineer (4+ Years experience)",
       "location": "Bengaluru • Remote possible",
-      "salaryMin":8,
-      "salaryMax":14
+      "salaryMin": 8,
+      "salaryMax": 14
     },
     {
-      "id":8,
+      "id": 8,
       "name": "Teknuance Info Solutions",
       "desc": "Cognition Driven Enterprise AI",
       "employees": "51-200 employees",
       "image": "https://photos.angel.co/startups/i/3196833-6cf6d64bec34de8642f61364a9151dbf-medium_jpg.jpg?buster=1567579436",
       "job": "Senior Fullstack Engineer",
       "location": "Chennai • Remote possible",
-      "salaryMin":5,
-      "salaryMax":12
+      "salaryMin": 5,
+      "salaryMax": 12
     },
     {
-      "id":9,
+      "id": 9,
       "name": "HRvisory",
       "desc": "We make it easier for start-ups to handle their HR challenges!",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/8296277-0dbdb640af062212888325b86ad126f6-medium_jpg.jpg?buster=1618646477",
       "job": "Information Technology Lead - Consumer Durable brand",
       "location": "Bengaluru",
-      "salaryMin":4,
-      "salaryMax":10
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
-      "id":10,
+      "id": 10,
       "name": "Aspire App",
       "desc": "The new age professional network",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/8069209-7be0af482378ac82332fa1195f8b5722-medium_jpg.jpg?buster=1605411684",
       "job": "FullStack Software Engineer",
       "location": "India • Remote possible",
-      "salaryMin":4,
-      "salaryMax":10
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
-      "id":11,
+      "id": 11,
       "name": "Neverinstall",
       "desc": "A powerful platform for accessing desktop applications through the browser",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/7298420-ebad72dd9824b70d90369658d6ffba8c-medium_jpg.jpg?buster=1622446957",
       "job": "Full Stack Developer (React,Node,Graphql)",
       "location": "Bengaluru • Remote possible",
-      "salaryMin":3,
-      "salaryMax":8
+      "salaryMin": 3,
+      "salaryMax": 8
     },
     {
-      "id":12,
+      "id": 12,
       "name": "Trailer Travel",
       "desc": "See the movie by yourself",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/7776523-bcdd744e24fd9c410298b24e9aaec3e4-medium_jpg.jpg?buster=1592508487",
       "job": "Full Stack Product Engineer",
       "location": "Gurgaon",
-      "salaryMin":4,
-      "salaryMax":10
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
-      "id":13,
+      "id": 13,
       "name": "AmberStudent",
       "desc": "Long-term accommodation booking platform for students",
       "employees": "51-200 employees",
       "image": "https://photos.angel.co/startups/i/2599012-8f09b4519134649d6a37dbd52e1de3c2-medium_jpg.jpg?buster=1594300525",
       "job": "Front-End Developer",
       "location": "Remote possible",
-      "salaryMin":4,
-      "salaryMax":10
+      "salaryMin": 4,
+      "salaryMax": 10
     },
     {
-      "id":14,
+      "id": 14,
       "name": "SuperTokens",
       "desc": "SuperTokens (YC S20) is an open source alternative to Auth0 / Firebase Auth / AWS Cognito",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/7138999-477596e1a50204b35d58b65e5b0561a4-medium_jpg.jpg?buster=1566286037",
       "job": "Fullstack Engineer",
       "location": "India • United States • United Kingdom • Remote possible",
-      "salaryMin":5,
-      "salaryMax":12
+      "salaryMin": 5,
+      "salaryMax": 12
     },
     {
-      "id":15,
+      "id": 15,
       "name": "Jackfruit",
       "desc": "Simplifying the jargon behind, & enabling Indians to understand & manage Personal Finance",
       "employees": "1-10 employees",
       "image": "https://photos.angel.co/startups/i/3196833-6cf6d64bec34de8642f61364a9151dbf-medium_jpg.jpg?buster=1567579436",
       "job": "Fullstack engineer",
       "location": "Mumbai • Remote possible",
-      "salaryMin":8,
-      "salaryMax":14
+      "salaryMin": 8,
+      "salaryMax": 14
     },
     {
-      "id":16,
+      "id": 16,
       "name": "Equity Data Science",
       "desc": "Quantitative Analytics for Fundamental Investors",
       "employees": "11-50 employees",
       "image": "https://photos.angel.co/startups/i/8406198-85d0c8e99b0799527046e2af3d54367c-medium_jpg.jpg?buster=1625001369",
       "job": "Fullstack Engineer",
       "location": "Mumbai",
-      "salaryMin":10,
-      "salaryMax":18
+      "salaryMin": 10,
+      "salaryMax": 18
     },
     {
-      "id":17,
+      "id": 17,
       "name": "Arbaan GT",
       "desc": "A Software service firm Specialised in  INTEGRATION AS A SERVICE",
       "employees": "11-50 employees",
       "image": "https://photos.angel.co/startups/i/4060090-8feb66c742933c6999849b7bb5ec02bd-medium_jpg.jpg?buster=1600756523",
       "job": "Senior Full-Stack Developer",
       "location": "Chennai",
-      "salaryMin":3,
-      "salaryMax":8
+      "salaryMin": 3,
+      "salaryMax": 8
     },
     {
       "id": 18,
@@ -197,8 +197,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 19,
       "name": "Teknuance Info Solutions",
       "desc": "Cognition Driven Enterprise AI",
@@ -208,8 +208,8 @@
       "location": "Chennai • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 20,
       "name": "HRvisory",
       "desc": "We make it easier for start-ups to handle their HR challenges!",
@@ -219,8 +219,8 @@
       "location": "Bengaluru",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 21,
       "name": "Aspire App",
       "desc": "The new age professional network",
@@ -230,8 +230,8 @@
       "location": "India • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 22,
       "name": "Neverinstall",
       "desc": "A powerful platform for accessing desktop applications through the browser",
@@ -241,8 +241,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 23,
       "name": "Trailer Travel",
       "desc": "See the movie by yourself",
@@ -252,8 +252,8 @@
       "location": "Gurgaon",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 24,
       "name": "AmberStudent",
       "desc": "Long-term accommodation booking platform for students",
@@ -263,8 +263,8 @@
       "location": "Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 25,
       "name": "SuperTokens",
       "desc": "SuperTokens (YC S20) is an open source alternative to Auth0 / Firebase Auth / AWS Cognito",
@@ -274,8 +274,8 @@
       "location": "India • United States • United Kingdom • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 26,
       "name": "Jackfruit",
       "desc": "Simplifying the jargon behind, & enabling Indians to understand & manage Personal Finance",
@@ -285,8 +285,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 27,
       "name": "Equity Data Science",
       "desc": "Quantitative Analytics for Fundamental Investors",
@@ -296,8 +296,8 @@
       "location": "Mumbai",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 28,
       "name": "Arbaan GT",
       "desc": "A Software service firm Specialised in  INTEGRATION AS A SERVICE",
@@ -307,8 +307,8 @@
       "location": "Chennai",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 29,
       "name": "Typeset",
       "desc": "Google Docs For Research. Join us if you want to solve Challenging Technology problems!",
@@ -318,8 +318,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 30,
       "name": "Teknuance Info Solutions",
       "desc": "Cognition Driven Enterprise AI",
@@ -329,8 +329,8 @@
       "location": "Chennai • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 31,
       "name": "HRvisory",
       "desc": "We make it easier for start-ups to handle their HR challenges!",
@@ -340,8 +340,8 @@
       "location": "Bengaluru",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 32,
       "name": "Aspire App",
       "desc": "The new age professional network",
@@ -351,8 +351,8 @@
       "location": "India • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 33,
       "name": "Neverinstall",
       "desc": "A powerful platform for accessing desktop applications through the browser",
@@ -362,8 +362,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 34,
       "name": "Trailer Travel",
       "desc": "See the movie by yourself",
@@ -373,8 +373,8 @@
       "location": "Gurgaon",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 35,
       "name": "Moveworks",
       "desc": "Instant help at work",
@@ -384,8 +384,8 @@
       "location": "",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 36,
       "name": "ShujaBITS Infotech Solutions",
       "desc": "Building innovative software products for start-ups in niche domains",
@@ -395,8 +395,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 37,
       "name": "ForeignAdmits",
       "desc": "AI enabled, mentors assisted higher education guidance platform for international students",
@@ -406,8 +406,8 @@
       "location": "Bengaluru",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 38,
       "name": "Jalan Technology Consulting (JTC)",
       "desc": "Software Development Company",
@@ -417,8 +417,8 @@
       "location": "Bengaluru • Hyderabad",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 39,
       "name": "Innerkore Technologies",
       "desc": "Marketing tools for rest of the world",
@@ -428,8 +428,8 @@
       "location": "Delhi • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 40,
       "name": "DOJOKO",
       "desc": "Where students unite (Connect Collaborate Communicate)",
@@ -439,8 +439,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 41,
       "name": "Loop Health",
       "desc": "Excellent health benefits for modern Indian companies (Y Combinator W20)",
@@ -450,8 +450,8 @@
       "location": "Pune • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 42,
       "name": "Melluli Technologies",
       "desc": "We enable businesses to innovate and adapt newer technologies and be successful",
@@ -461,8 +461,8 @@
       "location": "Bengaluru",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 43,
       "name": "revirt.space",
       "desc": "We are a platform that gamifies the spontaneity of the real world in the virtual world",
@@ -472,8 +472,8 @@
       "location": "Bengaluru",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 44,
       "name": "ToolJet",
       "desc": "Open-source no-code platform to build and deploy custom internal applications",
@@ -483,8 +483,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 45,
       "name": "Inflection.io",
       "desc": "Building marketing technology for product-led growth",
@@ -494,8 +494,8 @@
       "location": "Bengaluru • Kochi • Chennai",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 46,
       "name": "Quoality",
       "desc": "Ancillary Services Management platform for Hotels",
@@ -505,8 +505,8 @@
       "location": "India • Remote possible",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 47,
       "name": "LeadSquared",
       "desc": "LeadSquared is a leading Sales Execution and Marketing Automation platform",
@@ -516,8 +516,8 @@
       "location": "Bengaluru",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 48,
       "name": "Haasyl",
       "desc": "We help India's workforce access their pay-check as they earn it. Your pay, your way!",
@@ -527,8 +527,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 49,
       "name": "Ecozen",
       "desc": "",
@@ -538,8 +538,8 @@
       "location": "Pune",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 50,
       "name": "ETHER MEDICARE",
       "desc": "We are Ether Medicare – your female tech healthcare companion for life",
@@ -549,8 +549,8 @@
       "location": "Delhi",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 51,
       "name": "Unify Technologies",
       "desc": "Digital Engineering - Product Development",
@@ -560,8 +560,8 @@
       "location": "Hyderabad",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 52,
       "name": "Harivara",
       "desc": "Your Vedic Partner !",
@@ -571,8 +571,8 @@
       "location": "Bengaluru",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 53,
       "name": "Flyo",
       "desc": "Instant delivery platform for premium essentials",
@@ -582,8 +582,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 54,
       "name": "Aircampus",
       "desc": "Redefining college education to guarantee placement",
@@ -593,8 +593,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 55,
       "name": "Mandelbulb Technologies",
       "desc": "AI Solution provider & Big Data Experts",
@@ -604,8 +604,8 @@
       "location": "India • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 56,
       "name": "Xoxoday",
       "desc": "A SaaS platform to align, engage, reward & recognize employees & channel partners",
@@ -615,8 +615,8 @@
       "location": "Singapore • Bengaluru • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 57,
       "name": "CurioGenesis Tech Labs",
       "desc": "Towards a Sustainable Future",
@@ -626,8 +626,8 @@
       "location": "Pune",
       "salaryMin": 12,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 58,
       "name": "HealthifyMe Wellness",
       "desc": "India and South East Asia's largest and most loved health & fitness app",
@@ -637,8 +637,8 @@
       "location": "Bengaluru",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 59,
       "name": "Transform Automations India Private",
       "desc": "Products to simplify and automate Business processes for SMEs",
@@ -648,8 +648,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 12,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 60,
       "name": "Gambit Sports Pvt. Ltd.",
       "desc": "Nostragamus.in - Real money, Mobile first, Skill games platform",
@@ -659,8 +659,8 @@
       "location": "Bangalore Urban • Bengaluru • Remote possible",
       "salaryMin": 15,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 61,
       "name": "Nexxio Technologies",
       "desc": "Digital SaaS platform to automate & enable b2b sales operations of a consumer goods enterprise",
@@ -670,8 +670,8 @@
       "location": "Bengaluru",
       "salaryMin": 15,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 62,
       "name": "Ymirlabs",
       "desc": "We build companies",
@@ -681,8 +681,8 @@
       "location": "India • Norway • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 63,
       "name": "Richpanel",
       "desc": "Re-imagining Customer Support!",
@@ -692,8 +692,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 64,
       "name": "Aptagrim Consulting",
       "desc": "Turn DATA into INFORMATION and INSIGHTS",
@@ -703,8 +703,8 @@
       "location": "Hyderabad",
       "salaryMin": 7,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 65,
       "name": "Fynd",
       "desc": "Fresh Fashion, Straight From Brand Stores",
@@ -714,8 +714,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 66,
       "name": "SiteRecon",
       "desc": "Platform to survey properties remotely",
@@ -725,8 +725,8 @@
       "location": "Noida",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 67,
       "name": "Get Safle",
       "desc": "Easing Adoption for Blockchain Applications",
@@ -736,8 +736,8 @@
       "location": "Gurgaon",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 68,
       "name": "Delightree",
       "desc": "The future of franchise operations",
@@ -747,8 +747,8 @@
       "location": "India • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 69,
       "name": "Mapsense",
       "desc": "Building Location Intelligence apps",
@@ -758,8 +758,8 @@
       "location": "Gurgaon • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 70,
       "name": "Advenio",
       "desc": "We create reliable and accessible diagnostic tools using AI",
@@ -769,8 +769,8 @@
       "location": "Gurgaon • Chandigarh • Gurugram • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 71,
       "name": "Growthfile",
       "desc": "Digital Property Manager - Tenant portal, AI supervisor, E-invoicing",
@@ -780,8 +780,8 @@
       "location": "South Delhi • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 72,
       "name": "Custiv",
       "desc": "On-Demand Manufacturing platform",
@@ -791,8 +791,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 73,
       "name": "The Internet Folks",
       "desc": "We help various startups and companies test ideas via rapid implementation and prototyping",
@@ -802,8 +802,8 @@
       "location": "India • Bhopal • Madhya Pradesh",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 74,
       "name": "Slintel",
       "desc": "Use Slintel to identify the best selling opportunities that you can reach out to today",
@@ -813,8 +813,8 @@
       "location": "Bengaluru",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 75,
       "name": "Skylark Drones",
       "desc": "Our mission is to unlock the economic potential of the skies",
@@ -824,8 +824,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 76,
       "name": "SWIRL®",
       "desc": "Go Live Sell More",
@@ -835,8 +835,8 @@
       "location": "Vadodara • Mumbai • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 77,
       "name": "FinancePeer",
       "desc": "Financepeer is an Education Fintech making quality education easy and affordable",
@@ -846,8 +846,8 @@
       "location": "Hyderabad • Mumbai • Bengaluru • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 78,
       "name": "QuillBot",
       "desc": "Writing Made Painless",
@@ -857,8 +857,8 @@
       "location": "Jaipur • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 79,
       "name": "SalesBlink",
       "desc": "Full Stack Cold Outreach Platform",
@@ -868,8 +868,8 @@
       "location": "Delhi • Noida • New Delhi • Remote possible",
       "salaryMin": 9,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 80,
       "name": "mesha",
       "desc": "A new way of investing",
@@ -879,8 +879,8 @@
       "location": "Gurgaon • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 81,
       "name": "VP Delivery Services",
       "desc": "APP based modernized hyperlocal same-day delivery service",
@@ -890,8 +890,8 @@
       "location": "Mumbai",
       "salaryMin": 12,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 82,
       "name": "Biconomy",
       "desc": "Stripe for crypto",
@@ -901,8 +901,8 @@
       "location": "Europe • India • Singapore • Remote possible",
       "salaryMin": 12,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 83,
       "name": "Vizmo",
       "desc": "Enhancing workplace experience",
@@ -912,8 +912,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 15,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 84,
       "name": "FireVisor Systems",
       "desc": "Self-aware factories",
@@ -923,8 +923,8 @@
       "location": "India • Philippines • Vietnam • Remote possible",
       "salaryMin": 15,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 85,
       "name": "Masai School",
       "desc": "Coding school that makes you employable",
@@ -934,8 +934,8 @@
       "location": "India • Bengaluru",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 86,
       "name": "Stylabs Technologies",
       "desc": "An innovation studio in Mumbai",
@@ -945,8 +945,8 @@
       "location": "Mumbai • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 87,
       "name": "GrowVation",
       "desc": "Providing industry opportunities to students based on their innovative projects",
@@ -956,8 +956,8 @@
       "location": "Vasai",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 88,
       "name": "Shipmnts",
       "desc": "End to End Import Export Logistics Simplified | Making Global Trade Hassle Free",
@@ -967,8 +967,8 @@
       "location": "Ahmedabad",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 89,
       "name": "Urban Rebox IT",
       "desc": "Technology based waste management system",
@@ -978,8 +978,8 @@
       "location": "Hyderabad",
       "salaryMin": 16,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 90,
       "name": "NYUC Technologies",
       "desc": "NYUC is a one-stop solution for engaging and beautiful virtual events",
@@ -989,8 +989,8 @@
       "location": "India • Remote possible",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 91,
       "name": "Motion Education",
       "desc": "An Ed-Tech product that provides learning and enhance learning experience",
@@ -1000,8 +1000,8 @@
       "location": "Kota • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 92,
       "name": "Master-O",
       "desc": "Gamified field force enablement platform",
@@ -1011,8 +1011,8 @@
       "location": "Delhi • Gurgaon",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 93,
       "name": "Appstone",
       "desc": "Appstone provides SaaS based services for our clients and entering the ed-tech marketplace",
@@ -1022,8 +1022,8 @@
       "location": "Bhubaneswar • Bengaluru",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 94,
       "name": "vritrahan technology",
       "desc": "Technology Startup focused on Ed Tech sector",
@@ -1033,8 +1033,8 @@
       "location": "Delhi • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 95,
       "name": "Frecher Hinakins",
       "desc": "A stable code starts here for scalable products",
@@ -1044,8 +1044,8 @@
       "location": "Noida",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 96,
       "name": "Heeko",
       "desc": "Ideate. Design. Evolve",
@@ -1055,8 +1055,8 @@
       "location": "Gurgaon",
       "salaryMin": 7,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 97,
       "name": "nxtbig software labs",
       "desc": "Platform for launch of Financial Services",
@@ -1066,8 +1066,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 98,
       "name": "Azent Overseas Education",
       "desc": "End-to-end admissions support for study abroad. Guidance on education loans & scholarship",
@@ -1077,8 +1077,8 @@
       "location": "Mumbai",
       "salaryMin": 8,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 99,
       "name": "Reelo",
       "desc": "Making customer retention and engagement easy for every retail business",
@@ -1088,8 +1088,8 @@
       "location": "India • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 100,
       "name": "PreSkale",
       "desc": "The presales intelligence platform",
@@ -1099,8 +1099,8 @@
       "location": "India • Coimbatore • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 101,
       "name": "Daily Doc Healthcare",
       "desc": "New Age SaaS app to Improve Healthcare Communication, Discharge, Planning, Handoffs and Daily Rounds",
@@ -1110,8 +1110,8 @@
       "location": "India • Pune • Pune • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 102,
       "name": "Yudiz Solutions",
       "desc": "We offers the best in class digital solutions and impressive services that stands out globally",
@@ -1121,8 +1121,8 @@
       "location": "Ahmedabad • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 103,
       "name": "Consensor Enterprise",
       "desc": "Global software development and consulting company",
@@ -1132,8 +1132,8 @@
       "location": "India • Remote possible",
       "salaryMin": 2,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 104,
       "name": "Yojito",
       "desc": "No-Code for Teams",
@@ -1143,8 +1143,8 @@
       "location": "Pune • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 105,
       "name": "Peakmind",
       "desc": "Emotional Upskilling for All",
@@ -1154,8 +1154,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 106,
       "name": "Zignite Labs",
       "desc": "We bring AI to businesses",
@@ -1165,8 +1165,8 @@
       "location": "Bengaluru",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 107,
       "name": "AIfluence",
       "desc": "Africa's 1st Artificial Intelligence-driven Influencer Marketing Platform",
@@ -1176,8 +1176,8 @@
       "location": "Nairobi • Bengaluru",
       "salaryMin": 6,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 108,
       "name": "Getconvi Technologies",
       "desc": "Get Higher ROI through Customer Video Stories",
@@ -1187,8 +1187,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 109,
       "name": "Vitt AI",
       "desc": "Building conversational ai driven live virtual agents for BFSI firms",
@@ -1198,8 +1198,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 10,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 110,
       "name": "Venwiz",
       "desc": "B2B platform for manufacturers and service vendors",
@@ -1209,8 +1209,8 @@
       "location": "Bengaluru • Remote possible",
       "salaryMin": 3,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 111,
       "name": "ShopEagle",
       "desc": "ShopEagle is an online marketplace specially designed for small and medium-sized business",
@@ -1220,8 +1220,8 @@
       "location": "India • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 112,
       "name": "FliqaIndia",
       "desc": "FliqaIndia is a Company of Photography, Videography and Graphics Designing",
@@ -1231,8 +1231,8 @@
       "location": "India",
       "salaryMin": 12,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 113,
       "name": "VComply Technologies",
       "desc": "The better way to govern your business",
@@ -1242,8 +1242,8 @@
       "location": "Kolkata",
       "salaryMin": 4,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 114,
       "name": "Hyratech",
       "desc": "Behind every great experience is a great workflow",
@@ -1253,8 +1253,8 @@
       "location": "Noida • Remote possible",
       "salaryMin": 15,
       "salaryMax": 18
-  },
-  {
+    },
+    {
       "id": 115,
       "name": "Chainflux",
       "desc": "Chainflux has built Shine, a Blockchain traceability solution used by the Indian gold industry",
@@ -1264,7 +1264,29 @@
       "location": "Delhi • Mumbai • Bengaluru • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-  }
+    },
+    {
+      "name": "ABHISHEK KR MAHATO",
+      "desc": "student",
+      "employees": "none",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61JSCEv6isL._SX425_.jpg",
+      "job": "engineer",
+      "location": "mumbai",
+      "salaryMin": "12",
+      "salaryMax": "156",
+      "id": 118
+    },
+    {
+      "name": "Shubham kumar",
+      "desc": "student",
+      "employees": "15-30",
+      "image": "https://i.pinimg.com/564x/99/d3/ac/99d3ac2d12d3170520da3ff4b9f17f30.jpg",
+      "job": "Analyst",
+      "location": "Mumbai",
+      "salaryMin": "20000",
+      "salaryMax": "25000",
+      "id": 119
+    }
   ],
   "profile": {
     "name": "typicode"

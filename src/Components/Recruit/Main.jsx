@@ -39,6 +39,7 @@ nav a{
 }
 `
 const Left = styled.div`
+
 display: flex;
 div{
     cursor: pointer;
@@ -84,14 +85,15 @@ div>div>button{
   border: 1px solid #0a6cff;
   background-color: #0a6cff;
   cursor: pointer;
+  &:hover{
+    
+    color: #0a6cff;
+    border: 1px solid #0a6cff;
+    background-color: white;
+  }
 }
 
-div>div>button: hover{
-    
-  color: #0a6cff;
-  border: 1px solid #0a6cff;
-  background-color: white;
-}
+
 div>div>a:hover{
   
     color: #0a6cff;
@@ -131,13 +133,12 @@ button{
   border: 1px solid #0a6cff;
   background-color: #0a6cff;
   cursor: pointer;
-}
 
-button: hover{
-    
-  color: #0a6cff;
-  border: 1px solid #0a6cff;
-  background-color: white;
+  &:hover{
+    color: #0a6cff;
+    border: 1px solid #0a6cff;
+    background-color: white;
+  }
 }
 `
 const Mid = styled.div`
@@ -156,6 +157,7 @@ const Midimg = styled.div`
 width: 80%;
 margin-left: 180px; 
 margin-top: 50px; 
+margin-bottom: 50px; 
 
 img{
 
@@ -190,11 +192,11 @@ div{
 div>p{
 
   font-size: 15px;
-}
-div>p: hover{
 
+  &:hover{
   cursor: pointer;
   text-decoration: underline;
+}
 }
 `
 ;
@@ -249,7 +251,7 @@ export default function Main() {
            <img src="honey.png" />
            <img src="peloton.png" />
          </Midimg>
-
+          
         <Footer>
           <Div>
           <div>
