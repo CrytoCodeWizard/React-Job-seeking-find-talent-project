@@ -12,7 +12,7 @@ position: sticky;
 top: 0;
 height: 80px;
 background-color: white;
-box-shadow: 0 1px 5px grey;
+box-shadow: 0 .1px 5px #ccc;
 
 nav{
   display: flex;
@@ -105,9 +105,12 @@ div>div>a:hover{
 
 const Form1 = styled.div`
 
-width: 60%;
+width: 1000px;
 margin: auto;
-
+h1{
+  margin: auto;
+  width: fit-content;
+}
 `
 const Input = styled.div`
 
@@ -203,7 +206,7 @@ export default function Form() {
     <Main1>
         <nav>
         <Left>
-          <div><img src="logoRecruit.svg" alt="logo"/></div>
+          <div><img src="/logoRecruit.svg" alt="logo"/></div>
           <div><a href="/">STARTUP JOBS</a></div>
           <div><a href="/">PRODUCTS</a></div>
           <div><a href="/">PRICING</a></div>
@@ -222,14 +225,14 @@ export default function Form() {
     </Main1>
     <Form1>
       
-      <h1 style={{marginLeft: 250, fontSize: 50, color: "#2783fc"}}>Create Your Job</h1>
+      <h1 style={{fontSize: 50, color: "#2783fc"}}>Create Your Job</h1>
 
       <Input>
 
       <form onSubmit={handleSubmit}>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Name</label>
-        <input onChange={handleChange} type="text" name="name" placeholder="Enter Name"/>
+        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Company Name</label>
+        <input onChange={handleChange} type="text" name="name" placeholder="Enter Company Name"/>
 
         <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Description</label>
         <input onChange={handleChange} type="text" name="desc" placeholder="Enter Description"/>
@@ -241,16 +244,18 @@ export default function Form() {
         <input onChange={handleChange} type="text" name="image" placeholder="Enter Image Url"/>
 
         <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Job</label>
-        <input onChange={handleChange} type="text" name="job" placeholder="Enter Job"/>
+        <input onChange={handleChange} type="text" name="job" placeholder="Enter Job Title"/>
 
         <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Location</label>
         <input onChange={handleChange} type="text" name="location" placeholder="Enter Job Location"/>
         
+        <div>
         <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Salary Minimum</label>
         <input onChange={handleChange} type="number" name="salaryMin" placeholder="Enter Minimum Salary"/>
         
         <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Salary Maximum</label>
         <input onChange={handleChange} type="number" name="salaryMax" placeholder="Enter Maximum Salary"/>
+        </div>
        
         <button onChange={handleChange} style={{cursor: "pointer"}} type="submit" value="Submit">SUBMIT</button>
 
@@ -263,7 +268,7 @@ export default function Form() {
         <br />
         <br />
     </Form1>
-      </Main>
+     </Main>
     
   );
 }

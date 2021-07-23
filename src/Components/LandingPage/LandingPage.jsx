@@ -14,7 +14,7 @@ export default function LandingPage() {
             <Section2 />
             <Footer />
             <FooterMain />
-     </>
+        </>
   );
 }
 

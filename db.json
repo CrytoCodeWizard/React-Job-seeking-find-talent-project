@@ -1264,28 +1264,6 @@
       "location": "Delhi • Mumbai • Bengaluru • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
-    },
-    {
-      "name": "ABHISHEK KR MAHATO",
-      "desc": "student",
-      "employees": "none",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/61JSCEv6isL._SX425_.jpg",
-      "job": "engineer",
-      "location": "mumbai",
-      "salaryMin": "12",
-      "salaryMax": "156",
-      "id": 118
-    },
-    {
-      "name": "Shubham kumar",
-      "desc": "student",
-      "employees": "15-30",
-      "image": "https://i.pinimg.com/564x/99/d3/ac/99d3ac2d12d3170520da3ff4b9f17f30.jpg",
-      "job": "Analyst",
-      "location": "Mumbai",
-      "salaryMin": "20000",
-      "salaryMax": "25000",
-      "id": 119
     }
   ],
   "profile": {

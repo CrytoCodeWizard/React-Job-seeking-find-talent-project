@@ -1,20 +1,24 @@
 import styled from "styled-components";
 import logo from './../../logo.svg'
 import { Link } from "react-router-dom";
+
+const StLink=styled(Link)`
+text-decoration: none;
+`;
 const Wrapper = styled.div`
 width: 100%;
 background: #fff;
 border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 box-shadow: 0 1px 5px rgb(0 0 0 / 1%);
+
 nav{
     display: flex;
     max-width: 988px;
     margin: auto;
     justify-content: space-between;
 }
-nav a{
+nav p{
     height: 56px;
-    text-decoration: none;
     line-height: 56px;
     color: #666666;
     padding: 0 13px;
@@ -40,8 +44,6 @@ margin-top: 12px;
 pointer-events: none;
 margin-right: 12px;
 }
-div a{
-}
 `;
 
 const Right=styled.div`
@@ -61,11 +63,11 @@ div>div>input{
     width: 100px;
     font-size:12px;
 }
-div>div>a{
+div>div>p{
     color: #3078CA;
     font-size: 16px;
 }
-div>div>a:hover{
+div>div>p:hover{
     text-decoration: underline;
 }
 `;
@@ -76,13 +78,15 @@ export default function Header() {
       <nav>
         <Left>
           <div><img src={logo} alt="logo"/></div>
-          <Link to="jobs">
-          <div><a href="/">STARTUP JOBS</a></div>
-          </Link>
-          <div><a href="/">RECRUIT</a></div>
-          <div><a href="/">INVEST</a></div>
-          <div><a href="/">BLOG</a></div>
-          <div><a href="/">MORE</a></div>
+          <StLink to="jobs">
+          <div><p>STARTUP JOBS</p></div>
+          </StLink>
+          <StLink to="recruit">
+          <div><p>RECRUIT</p></div>
+          </StLink>
+          <div><p>INVEST</p></div>
+          <div><p>BLOG</p></div>
+          <div><p>MORE</p></div>
         </Left>
 
         <Right>
@@ -93,8 +97,8 @@ export default function Header() {
           </div>
 
           <div>
-          <div><a href="/">Join</a></div>
-          <div><a href="/">Log in</a></div>
+          <div><p>Join</p></div>
+          <div><p>Log in</p></div>
           </div>
 
         </Right>

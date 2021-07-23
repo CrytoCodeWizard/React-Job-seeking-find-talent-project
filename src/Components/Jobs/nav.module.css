@@ -23,6 +23,13 @@
     height: 20px;
     margin: 10px;
 }
+.leftBox>input{
+    width: 140px;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 8px;
+    outline: none;
+}
 .leftBox>div{
     align-items: center;
     display: flex;

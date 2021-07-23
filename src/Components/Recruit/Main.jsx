@@ -1,17 +1,16 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 const Wrapper = styled.div`
 width: 100%;
 background: #fff;
-
 `;
 
 const Main1 = styled.div`
-
 position: sticky;
 top: 0;
 height: 80px;
 background-color: white;
-box-shadow: 0 1px 5px grey;
+box-shadow: 0 .1px 5px #ccc;
 
 nav{
   display: flex;
@@ -39,7 +38,6 @@ nav a{
 }
 `
 const Left = styled.div`
-
 display: flex;
 div{
     cursor: pointer;
@@ -57,7 +55,7 @@ div>a:hover{
 }
 `;
 
-const Right=styled.div`
+const Right = styled.div`
 display: flex;
 
 div{
@@ -103,29 +101,30 @@ div>div>a:hover{
 
 const Body = styled.div`
 
-width: 100%;
+width: fit-content;
 height: 760px;
-margin-top: 70px;
-background-image: url(https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f763df72f672ebed4d83053_home-hero.jpg);
+margin-top: 30px;
+background-image: url('https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f763df72f672ebed4d83053_home-hero.jpg');
+background-repeat: no-repeat;
+background-size:contain;
 `
 const Left1 = styled.div`
 
 width: 42%;
-margin-left: 180px;
-
+margin-left: 140px;
 h1{
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 800;
 }
 p{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 500;
 }
 button{
     
   width: 220px;
   height: 50px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -142,7 +141,6 @@ button{
 }
 `
 const Mid = styled.div`
-
 width: 60%;
 margin-left: 300px; 
 margin-top: 400px;
@@ -165,19 +163,15 @@ img{
   width: 150px;
   height: 40px;
   margin: 20px;
-}
-`
+}`;
 
 const Footer = styled.div`
-
 width: 100%;
 height: 500px;
-background-image: url(https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f7719aef9133e498f52b164_footer_bg.jpg)
-
-`
+background-image: url('https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f7719aef9133e498f52b164_footer_bg.jpg');
+`;
 
 const Div = styled.div`
-
 width: 80%;
 margin-left: 250px;
 margin-top: 100px;
@@ -198,106 +192,107 @@ div>p{
   text-decoration: underline;
 }
 }
-`
-;
+`;
 
 export default function Main() {
   return (
     <Wrapper>
       <Main1>
-      <nav>
-        <Left>
-          <div><img src="logoRecruit.svg" alt="logo"/></div>
-          <div><a href="/">STARTUP JOBS</a></div>
-          <div><a href="/">PRODUCTS</a></div>
-          <div><a href="/">PRICING</a></div>
-        </Left>
+        <nav>
+          <Left>
+            <div><img src="logoRecruit.svg" alt="logo" /></div>
+            <div><a>STARTUP JOBS</a></div>
+            <div><a>PRODUCTS</a></div>
+            <div><a>PRICING</a></div>
+          </Left>
 
-        <Right>
+          <Right>
 
-          <div>
-          <div><a href="/">Back to AngelList</a></div>
-          <div><a href="/">Log in</a></div>
-          <div><button href="/">Join</button></div>
-          </div>
+            <div>
+               <Link to="/">
+              <div><a>Back to AngelList</a></div>
+               </Link>
+              <div><Link to="/recruit/create-jobs"><a>Log in</a></Link></div>
+              <div><button>Join</button></div>
+            </div>
 
-        </Right>
-      </nav>
+          </Right>
+        </nav>
       </Main1>
 
       <Body>
         <Left1>
           <br />
           <br />
-          <br />     
+          <br />
           <h1>Build a world changing team</h1>
           <p>Recruit is a suite of products that helps you find, connect, and hire startup-ready talent. Built off of AngelList's network of 8M+ users, Recruit powers hiring for 100k+ companies from pre-seed to post-IPO.</p>
           <button>Start Hiring Today</button>
         </Left1>
 
-         <Mid>
+        <Mid>
           <h1>Join 100k+ of the world’s top startups, tapping into our global pool of 8M+ startup enthusiasts</h1>
-         </Mid>
-         <Midimg>
-           <img src="postmates.png" />
-           <img src="cruise.svg" />
-           <img src="nerdWallet.png" />
-           <img src="airtable.png" />
-           <img src="doordash.png" />
-           <img src="alto.svg" />
-           <img src="plaid.svg" />
-           <img src="roblox.png" />
-           <img src="ifttt.svg" />
-           <img src="honey.png" />
-           <img src="peloton.png" />
-         </Midimg>
-          
+        </Mid>
+        <Midimg>
+          <img alt="" src="postmates.png" />
+          <img alt="" src="cruise.svg" />
+          <img alt="" src="nerdWallet.png" />
+          <img alt="" src="airtable.png" />
+          <img alt="" src="doordash.png" />
+          <img alt="" src="alto.svg" />
+          <img alt="" src="plaid.svg" />
+          <img alt="" src="roblox.png" />
+          <img alt="" src="ifttt.svg" />
+          <img alt="" src="honey.png" />
+          <img alt="" src="peloton.png" />
+        </Midimg>
+
         <Footer>
           <Div>
-          <div>
-          <h1>Recruit</h1>
-          <br/>
-          <p href="">Recruit</p>
-          <p href="">Source</p>
-          <p href="">Job Listings</p>
-          <p href="">Track</p>
-          <p href="">Company Profile</p>
-          <p href="">Assessments</p>
-          <p href="">Pricing</p>
-        
-          </div>
-          <div>
-          <h1>Find Jobs</h1>
-          <br/>
-          <p href="">Startup Jobs</p>
-          <p href="">San Francisco</p>
-          <p href="">New York</p>
-          <p href="">Remote</p>
-          <p href="">Canada</p>
-          <p href="">India</p>
-        
-          </div>
-          <div>
-          <h1>Company</h1>
-          <br/>
-          <p href="">About</p>
-          <p href="">Blog</p>
-          <p href="">Careers</p>
-          <p href="">Contact Us</p>
-          <p href="">Help</p>
-          <p href="">Terms & Privacy</p>
-        
-          </div>
-          <div>
-          <h1>AngelList</h1>
-          <br/>
-          <p href="">About Us</p>
-          <p href="">Venture</p>
-          <p href="">Talent</p>
-          <p href="">Product Hunt</p>
-          <p href="">Twitter</p>
-        
-          </div>
+            <div>
+              <h1>Recruit</h1>
+              <br />
+              <p>Recruit</p>
+              <p>Source</p>
+              <p>Job Listings</p>
+              <p>Track</p>
+              <p>Company Profile</p>
+              <p>Assessments</p>
+              <p>Pricing</p>
+
+            </div>
+            <div>
+              <h1>Find Jobs</h1>
+              <br />
+              <p>Startup Jobs</p>
+              <p>San Francisco</p>
+              <p>New York</p>
+              <p>Remote</p>
+              <p>Canada</p>
+              <p>India</p>
+
+            </div>
+            <div>
+              <h1>Company</h1>
+              <br />
+              <p>About</p>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>Contact Us</p>
+              <p>Help</p>
+              <p>Terms & Privacy</p>
+
+            </div>
+            <div>
+              <h1>AngelList</h1>
+              <br />
+              <p>About Us</p>
+              <p>Venture</p>
+              <p>Talent</p>
+              <p>Product Hunt</p>
+              <p>Twitter</p>
+
+            </div>
           </Div>
           <br />
           <br />
@@ -306,7 +301,7 @@ export default function Main() {
           <br />
           <br />
 
-      </Footer>
+        </Footer>
       </Body>
 
     </Wrapper>

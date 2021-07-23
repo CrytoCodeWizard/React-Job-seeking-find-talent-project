@@ -1,6 +1,6 @@
 import { FooterSection } from "./FooterComponents/FooterSection";
 import styles from "./FooterComponents/Footer.module.css"
-
+import{v4 as uuid} from "uuid"
 export function FooterMain(){
     const angelList = [
         "About",
@@ -104,49 +104,49 @@ export function FooterMain(){
           <div className={styles.footerElementBox}>
             <h3>AngelList</h3>
             {angelList.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementBox}>
             <h3>Job Collections</h3>
             {jobCollection.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementBox}>
             <h3>Jobs by Location</h3>
             {byLocation.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementWideBox}>
             <h3>Jobs by Role and Location</h3>
             {byRole.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementBox}>
             <h3>Today in Tech</h3>
             {inTech.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementBox}>
             <h3>Jobs by Role</h3>
             {byRole2.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementBox}>
             <h3>Our Blog</h3>
             {blog.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.footerElementWideBox}>
             <h3>Remote Jobs</h3>
             {remoteJobs.map((e) => (
-              <FooterSection key={e.indexOf} title={e}></FooterSection>
+              <FooterSection key={uuid()} title={e}></FooterSection>
             ))}
           </div>
           <div className={styles.bottomLinks}>
