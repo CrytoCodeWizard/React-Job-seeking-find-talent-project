@@ -6,6 +6,8 @@
     min-height: 0;
     box-sizing: border-box;
     line-height: 1.5;
+    max-width: 1136px;
+    margin: 5% auto 0;
 }
 
 .blogContainer>h2{
