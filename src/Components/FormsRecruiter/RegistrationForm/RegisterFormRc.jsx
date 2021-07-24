@@ -131,6 +131,12 @@ box-sizing: border-box;}
     margin-top: 56px;
     margin-bottom: 42px;
   }
+  input{
+    outline: none;
+  }
+  input:focus{
+    border-color: #3f81c7;
+  }
     input{
       &::placeholder{
         color: #333;
