@@ -1,8 +1,7 @@
 import {v4 as uuid} from "uuid"
 import { JobBox } from "./JobBox";
 const style ={
-    width:"max-content",
-    margin:"auto"
+    width:"100%"
 }
 export function Jobs({company,lastJobRef,loading}){
     return(
@@ -15,7 +14,7 @@ export function Jobs({company,lastJobRef,loading}){
                     return <JobBox key={uuid()} item={el}></JobBox>
                 }
             })}
-            <div style={style}>{loading && "Loading..."}</div>
+            <p style={style}>{loading && "Loading..."}</p>
         </div>
     )
 }

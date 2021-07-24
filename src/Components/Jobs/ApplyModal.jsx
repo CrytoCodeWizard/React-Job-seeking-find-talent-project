@@ -1,5 +1,6 @@
 import styled from "styled-components"
-
+import axios from "axios";
+import { useState } from "react";
 const Wrapper=styled.div`
 position: fixed;
 top: 50%;
@@ -92,6 +93,31 @@ z-index: 100;
 `;
 
 export function ApplyModal({open,onClose,data}){
+    const[loading,setLoading]=useState(0)
+    const time = new Date().toLocaleTimeString();
+    console.log('time:', time)
+    const date = new Date().toLocaleDateString();
+    console.log('date:', date)
+    
+    const handleSubmit=()=>{
+        axios.post('http://localhost:3001/applied', {
+            name: data.name,
+            description: data.desc,
+            image:data.image,
+            date
+          }).then(()=>{handleLoading()});
+    }
+    const handleLoading=()=>{
+        setLoading(1);
+        setTimeout(() => {
+            setLoading(2)
+        },2000);
+        setTimeout(() => {
+            setLoading(0)
+            onClose()
+        }, 3000);
+    }
+
     if(open){
         document.body.style.overflow='hidden'
     }
@@ -126,7 +152,7 @@ export function ApplyModal({open,onClose,data}){
                 <hr />
                 <div>
                 <button onClick={onClose}>Cancel</button>
-                <button>Send application</button>
+                <button onClick={handleSubmit}>{loading===1?"Sending":loading==0?"Send application":"Done"}</button>
                 </div>
             </Right>
         </Wrapper>

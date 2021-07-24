@@ -108,6 +108,7 @@ font-size: 11px;
 }
 .bottom>div{
     display: flex;
+    cursor: pointer;
 }
 .bottom>div>img{
     width:100%;
@@ -120,4 +121,7 @@ font-size: 11px;
 }
 .bottom>div:nth-child(2)>img{
     margin-top: 5px;
+}
+.image{
+
 }

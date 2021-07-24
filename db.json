@@ -1266,6 +1266,36 @@
       "salaryMax": 18
     }
   ],
+  "applied": [
+    {
+      "name": "HRvisory",
+      "description": "We make it easier for start-ups to handle their HR challenges!",
+      "image": "https://photos.angel.co/startups/i/8296277-0dbdb640af062212888325b86ad126f6-medium_jpg.jpg?buster=1618646477",
+      "date": "7/24/2021",
+      "id": 1
+    },
+    {
+      "name": "Amberstudent",
+      "description": "Long-term accommodation booking platform for students",
+      "image": "https://photos.angel.co/startups/i/2599012-8f09b4519134649d6a37dbd52e1de3c2-medium_jpg.jpg?buster=1594300525",
+      "date": "7/24/2021",
+      "id": 2
+    },
+    {
+      "name": "Typeset",
+      "description": "Google Docs For Research. Join us if you want to solve Challenging Technology problems!",
+      "image": "https://photos.angel.co/startups/i/517943-03ae92ca8a409131651b57a1da8f48c6-medium_jpg.jpg?buster=1466089412",
+      "date": "7/24/2021",
+      "id": 3
+    },
+    {
+      "name": "Moveworks",
+      "description": "Instant help at work",
+      "image": "https://photos.angel.co/startups/i/6899437-cf011492eafda08309550576aa859b8b-medium_jpg.jpg?buster=1626384757",
+      "date": "7/24/2021",
+      "id": 4
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
