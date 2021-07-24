@@ -1,6 +1,12 @@
 import styles from "./nav.module.css"
+import { useState,useEffect } from "react"
 export function Nav({handleSearch}) {
+    const [user,setUser]=useState({})
 
+    useEffect(()=>{
+        const user =JSON.parse(localStorage.getItem("user")) 
+        setUser(user)
+    },[])
     return (
         <div className={styles.wrapper}>
             <div className={styles.main}>
@@ -14,7 +20,7 @@ export function Nav({handleSearch}) {
                     <div>
                         <img src="https://cdn.iconscout.com/icon/free/png-256/face-1659511-1410033.png" alt="" />
                         <div>
-                            <p>Shubham verma</p>
+                            <p>{user.full_name}</p>
                             <span>Ready to interview</span>
                         </div>
                     </div>

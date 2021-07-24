@@ -2,17 +2,22 @@ import styles from "./jobBox.module.css";
 import hide from './../../hide.svg'
 
 import { ApplyModal } from "./ApplyModal";
-import { useState } from "react";
+import { useState,useEffect} from "react";
 export function JobBox({ item }) {
     const [isOpen, setIsOpen] = useState(false);
-    const [isSave,setIsSave]=useState(false)
+    const [isSave,setIsSave]=useState(false);
+    const [user,setUser]=useState({})
 
+    useEffect(()=>{
+        const user =JSON.parse(localStorage.getItem("user")) 
+        setUser(user)
+    },[])
     const handleSave=()=>{
         setIsSave(prev=>!prev)
     }
     return (
         <div className={styles.container}>
-            <ApplyModal data={item} open={isOpen} onClose={() => setIsOpen(false)}></ApplyModal>
+            <ApplyModal user={user} data={item} open={isOpen} onClose={() => setIsOpen(false)}></ApplyModal>
             <div className={styles.main}>
                 <div className={styles.nameBox}>
                     <div className={styles.imgBox}>

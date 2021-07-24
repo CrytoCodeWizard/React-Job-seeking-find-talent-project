@@ -78,7 +78,31 @@ div>button:nth-child(1):hover{
     background-color: #81b5ff;
     color: #fff;
 }
+`;
 
+const User=styled.div`
+display: flex;
+flex-direction: column;
+
+h3{
+    font-weight: normal;
+}
+p{
+    font-size: 13px;
+    color: #444444;
+    margin-top: 5px;
+}
+textarea{
+    border:solid #385075 1px;
+    border-radius: 5px;
+    outline: none;
+    padding: 7px;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea:focus{
+    border-color: #0F6FFF;
+}
 `;
 
 
@@ -92,13 +116,11 @@ background-color: rgba(0,0,0,.7);
 z-index: 100;
 `;
 
-export function ApplyModal({open,onClose,data}){
+export function ApplyModal({open,onClose,data,user}){
     const[loading,setLoading]=useState(0)
     const time = new Date().toLocaleTimeString();
-    console.log('time:', time)
     const date = new Date().toLocaleDateString();
-    console.log('date:', date)
-    
+
     const handleSubmit=()=>{
         axios.post('http://localhost:3001/applied', {
             name: data.name,
@@ -150,9 +172,15 @@ export function ApplyModal({open,onClose,data}){
             <Right>
                 <span>YOUR APPLICATION</span>
                 <hr />
+                <User>
+                    <h3>{user.full_name}</h3>
+                    <span>{user.email}</span>
+                    <p>Let your hiring contact know why you are a good fit.</p>
+                    <textarea id="" placeholder={`Write a note to ${data.name}`} cols="30" rows="5"></textarea>
+                </User>
                 <div>
                 <button onClick={onClose}>Cancel</button>
-                <button onClick={handleSubmit}>{loading===1?"Sending":loading==0?"Send application":"Done"}</button>
+                <button onClick={handleSubmit}>{loading===1?"Sending":loading===0?"Send application":"Done"}</button>
                 </div>
             </Right>
         </Wrapper>

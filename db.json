@@ -19,7 +19,7 @@
       "id": 3
     },
     {
-      "full_name": "shubham verma",
+      "full_name": "Shubham verma",
       "email": "shubhamv562@gmail.com",
       "pass": "123",
       "id": 4
@@ -1378,6 +1378,13 @@
       "image": "https://photos.angel.co/startups/i/8041883-469eb5587bb7aedcf1520cb10213b96e-medium_jpg.jpg?buster=1603783727",
       "date": "7/24/2021",
       "id": 7
+    },
+    {
+      "name": "Teknuance Info Solutions",
+      "description": "Cognition Driven Enterprise AI",
+      "image": "https://photos.angel.co/startups/i/3196833-6cf6d64bec34de8642f61364a9151dbf-medium_jpg.jpg?buster=1567579436",
+      "date": "7/24/2021",
+      "id": 8
     }
   ],
   "profile": {
