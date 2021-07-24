@@ -1385,6 +1385,20 @@
       "image": "https://photos.angel.co/startups/i/3196833-6cf6d64bec34de8642f61364a9151dbf-medium_jpg.jpg?buster=1567579436",
       "date": "7/24/2021",
       "id": 8
+    },
+    {
+      "name": "SuperTokens",
+      "description": "SuperTokens (YC S20) is an open source alternative to Auth0 / Firebase Auth / AWS Cognito",
+      "image": "https://photos.angel.co/startups/i/7138999-477596e1a50204b35d58b65e5b0561a4-medium_jpg.jpg?buster=1566286037",
+      "date": "7/24/2021",
+      "id": 9
+    },
+    {
+      "name": "revirt.space",
+      "description": "We are a platform that gamifies the spontaneity of the real world in the virtual world",
+      "image": "https://photos.angel.co/startups/i/8415912-f5c7f917d4e9e75590ec142b6c1c0731-medium_jpg.jpg?buster=1625673909",
+      "date": "7/24/2021",
+      "id": 10
     }
   ],
   "profile": {

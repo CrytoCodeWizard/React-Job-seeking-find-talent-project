@@ -180,7 +180,7 @@ export function ApplyModal({open,onClose,data,user}){
                 </User>
                 <div>
                 <button onClick={onClose}>Cancel</button>
-                <button onClick={handleSubmit}>{loading===1?"Sending":loading===0?"Send application":"Done"}</button>
+                <button onClick={handleSubmit}>{loading===1?"Sending...":loading===0?"Send application":"Done"}</button>
                 </div>
             </Right>
         </Wrapper>
