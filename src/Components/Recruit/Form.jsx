@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Main = styled.div`
 
-background-color: #f3f3f3;
+background-color: #ffffff;
 `
 const Main1 = styled.div`
 
@@ -18,12 +18,10 @@ nav{
   display: flex;
   max-width: 1158px;
   height: 80px;
-  
   background-color: white;
   top: 0;
   z-index: 3;
   margin: auto;
-  // margin-bottom: -50px; 
   justify-content: space-between;
 }
 nav a{
@@ -47,12 +45,16 @@ div{
 }
 div>img{
 height: 35px;
-margin-top: 15px;
+margin-top: 20px;
 pointer-events: none;
 margin-right: 15px;
 }
+div>a{
+  line-height: 80px;
+  font-size: 16px;
+  color: #000000;
+}
 div>a:hover{
-  
   color: #0a6cff;
   text-decoration: underline;
 }
@@ -68,6 +70,11 @@ div>img{
     height: 15px;
     margin-top: 19px;
     padding: 0 14px;
+}
+div>a{
+  line-height: 80px;
+  font-size: 16px;
+  color: #000000;
 }
 div>div>a{
     color: black;
@@ -113,25 +120,21 @@ h1{
 }
 `
 const Input = styled.div`
-
 width: 50%;
 display: flex;
 flex-direction: column;
 margin: auto;
-border: 1px solid grey;
+border: 1px solid #dddddd;
 padding: 40px;
-border-radius: 10px;
-margin-top:  30px;
+margin-top: 30px;
 
 form{
-
     width: 60%;
 }
 input{
-
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid grey;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
     margin-top:  5px;
     margin-right:  50px;
     margin-left: 90px;
@@ -143,17 +146,21 @@ input{
 
         outline: none;
     }
+    &::placeholder{
+      color: #888;
+      font-size: small;
+      padding-left: 20px;
+    }
 }
 button{
-
-  width: 220px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   margin-top: 10px;
-  margin-left: 120px;
+  margin-left: 170px;
   font-size: 18px;
   font-weight: 600;
   color: white;
-  border-radius: 5px;
+  border-radius: 2px;
   border: 1px solid #0a6cff;
   background-color: #0a6cff;
   cursor: pointer;
@@ -207,17 +214,15 @@ export default function Form() {
         <nav>
         <Left>
           <div><img src="/logoRecruit.svg" alt="logo"/></div>
-          <div><a href="/">STARTUP JOBS</a></div>
-          <div><a href="/">PRODUCTS</a></div>
-          <div><a href="/">PRICING</a></div>
+          <div><a href="/">Startup Jobs</a></div>
+          <div><a href="/">Products</a></div>
+          <div><a href="/">Pricing</a></div>
         </Left>
 
         <Right>
 
           <div>
           <div><a href="/">Back to AngelList</a></div>
-          <div><a href="/">Log in</a></div>
-          <div><button href="/">Join</button></div>
           </div>
 
         </Right>
@@ -225,36 +230,36 @@ export default function Form() {
     </Main1>
     <Form1>
       
-      <h1 style={{fontSize: 50, color: "#2783fc"}}>Create Your Job</h1>
+      <h1 style={{fontSize: 40, marginTop:"20px", color: "#1476f7"}}>Post a Job</h1>
 
       <Input>
 
       <form onSubmit={handleSubmit}>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Company Name</label>
-        <input onChange={handleChange} type="text" name="name" placeholder="Enter Company Name"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90, }}>Company Name</label>
+        <input onChange={handleChange} type="text" name="name" placeholder="Masai School"/>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Description</label>
-        <input onChange={handleChange} type="text" name="desc" placeholder="Enter Description"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Description</label>
+        <input onChange={handleChange} type="text" name="desc" placeholder="Masai is a seed-funded Edtech startup based out of Bangalore"/>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Employees</label>
-        <input onChange={handleChange} type="text" name="employees" placeholder="Enter Employees"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Employees</label>
+        <input onChange={handleChange} type="text" name="employees" placeholder="153"/>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Image</label>
-        <input onChange={handleChange} type="text" name="image" placeholder="Enter Image Url"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Image</label>
+        <input onChange={handleChange} type="text" name="image" placeholder="image url"/>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Job</label>
-        <input onChange={handleChange} type="text" name="job" placeholder="Enter Job Title"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Job</label>
+        <input onChange={handleChange} type="text" name="job" placeholder="SDE-3 MERN Instructur"/>
 
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Location</label>
-        <input onChange={handleChange} type="text" name="location" placeholder="Enter Job Location"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Location</label>
+        <input onChange={handleChange} type="text" name="location" placeholder="Bangalore"/>
         
         <div>
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Salary Minimum</label>
-        <input onChange={handleChange} type="number" name="salaryMin" placeholder="Enter Minimum Salary"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Salary minimum</label>
+        <input onChange={handleChange} type="number" name="salaryMin" placeholder="15,00,000"/>
         
-        <label style={{fontWeight: 500, fontSize: 20, marginLeft: 90}}>Salary Maximum</label>
-        <input onChange={handleChange} type="number" name="salaryMax" placeholder="Enter Maximum Salary"/>
+        <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Salary maximum</label>
+        <input onChange={handleChange} type="number" name="salaryMax" placeholder="50,00,000"/>
         </div>
        
         <button onChange={handleChange} style={{cursor: "pointer"}} type="submit" value="Submit">SUBMIT</button>

@@ -44,9 +44,14 @@ div{
 }
 div>img{
 height: 35px;
-margin-top: 15px;
+margin-top: 20px;
 pointer-events: none;
 margin-right: 15px;
+}
+div>a{
+  line-height: 80px;
+  font-size: 16px;
+  color: #000000;
 }
 div>a:hover{
   
@@ -66,11 +71,16 @@ div>img{
     margin-top: 19px;
     padding: 0 14px;
 }
+div>a{
+  line-height: 80px;
+  font-size: 16px;
+  color: #000000;
+}
 div>div>a{
     color: black;
     font-size: 16px;
 }
-div>div>button{
+div>div>a>button{
     
   width: 100px;
   height: 30px;
@@ -201,9 +211,9 @@ export default function Main() {
         <nav>
           <Left>
             <div><img src="logoRecruit.svg" alt="logo" /></div>
-            <div><a>STARTUP JOBS</a></div>
-            <div><a>PRODUCTS</a></div>
-            <div><a>PRICING</a></div>
+            <div><a>Startup Jobs</a></div>
+            <div><a>Products</a></div>
+            <div><a>Pricing</a></div>
           </Left>
 
           <Right>
@@ -212,8 +222,9 @@ export default function Main() {
                <Link to="/">
               <div><a>Back to AngelList</a></div>
                </Link>
-              <div><Link to="/recruit/create-jobs"><a>Log in</a></Link></div>
-              <div><button>Join</button></div>
+              {/* <div><Link to="/recruit/create-jobs"><a>Log in</a></Link></div> */}
+              <div><Link to="/loginrc">Log in</Link></div>
+              <div><Link to="/joinrc"><button>Join</button></Link></div>
             </div>
 
           </Right>

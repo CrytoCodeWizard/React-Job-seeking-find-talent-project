@@ -63,11 +63,15 @@ div>div>input{
     width: 100px;
     font-size:12px;
 }
-div>div>p{
+div>div>a{
     color: #3078CA;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
-div>div>p:hover{
+div>div>a:hover{
     text-decoration: underline;
 }
 `;
@@ -77,10 +81,12 @@ export default function Header() {
     <Wrapper>
       <nav>
         <Left>
-          <div><img src={logo} alt="logo"/></div>
-          <StLink to="jobs">
-          <div><p>STARTUP JOBS</p></div>
+          <StLink to="/">
+          <div><img src={logo} alt="logo" /></div>
           </StLink>
+          {/* <StLink to="jobs"> */}
+          <div><p>STARTUP JOBS</p></div>
+          {/* </StLink> */}
           <StLink to="recruit">
           <div><p>RECRUIT</p></div>
           </StLink>
@@ -97,8 +103,12 @@ export default function Header() {
           </div>
 
           <div>
-          <div><p>Join</p></div>
-          <div><p>Log in</p></div>
+            <div>
+              <Link to='/join'>Join</Link>
+            </div>
+            <div>
+              <Link to='/login'>Log in</Link>
+            </div>
           </div>
 
         </Right>
