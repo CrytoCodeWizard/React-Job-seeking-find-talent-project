@@ -5,16 +5,20 @@ import { BlogDiv } from "./StartUpsPageComponents/BlogDiv";
 import { Top } from "../LandingPage/Top";
 import { FooterMain } from "../LandingPage/FooterMain";
 import { Redirect } from 'react-router'
+import Header from "../LandingPage/Header";
 
 const Wrapper = styled.div`
   width: 100%;
+&div{
   max-width: 1136px;
   margin: auto;
+
+}
 `;
 
 const TopBox = styled.div`
-  width: 80%;
-  padding: 88px 0 40px;
+  max-width: 1136px;;
+  padding: 40px;
   text-align: center;
   margin: auto;
 
@@ -33,7 +37,9 @@ const TopBox = styled.div`
 
 const CardBox = styled.div`
   display: flex;
+  margin: auto;
   justify-content: space-between;
+  width: 1136px;
   * {
     margin: 0;
   }
@@ -68,6 +74,7 @@ const Button = styled.button`
   color: #fff;
   font-size: 20px;
   line-height: 1.4;
+  margin-top: 30px;
   padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -172,6 +179,8 @@ const blogData = [
 export function StartUpsPage() {
   return (
     <Wrapper>
+      <div>
+      <Header></Header>
       <Top></Top>
       <TopBox>
         <h1> Find your dream startup job</h1>
@@ -179,9 +188,9 @@ export function StartUpsPage() {
           AngelList helps people find exciting job opportunities, from
           fast-growing startups to the Silicon Valley giants you know & love.
         </p>
+      <Button>Find a Job</Button>
       </TopBox>
 
-      <Button>Find a Job</Button>
       <MidLine>
         <p>Looking to hire?&#160;</p>
         <span>Post jobs for free</span>
@@ -230,6 +239,8 @@ export function StartUpsPage() {
         </div>
       </div>
       <FooterMain></FooterMain>
+
+      </div>
     </Wrapper>
   );
 }

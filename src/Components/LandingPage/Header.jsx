@@ -84,9 +84,9 @@ export default function Header() {
           <StLink to="/">
           <div><img src={logo} alt="logo" /></div>
           </StLink>
-          {/* <StLink to="jobs"> */}
+           <StLink to="/startup-jobs">
           <div><p>STARTUP JOBS</p></div>
-          {/* </StLink> */}
+          </StLink>
           <StLink to="recruit">
           <div><p>RECRUIT</p></div>
           </StLink>

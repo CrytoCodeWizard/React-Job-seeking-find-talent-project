@@ -3,6 +3,7 @@ import LoginForm from "./Components/Forms/LoginForm/LoginForm";
 import RegisterFormRc from "./Components/FormsRecruiter/RegistrationForm/RegisterFormRc";
 import LoginFormRc from "./Components/FormsRecruiter/LoginForm/LoginFormRc";
 import LandingPage from "./Components/LandingPage/LandingPage";
+import { StartUpsPage } from "./Components/StartUpJobsPage/StartUpsPage";
 import { AngelList } from "./Components/Jobs/AngelList";
 import Main from "./Components/Recruit/Main";
 import Form from "./Components/Recruit/Form";
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/login' component={LoginForm} />
           <Route exact path='/joinrc' component={RegisterFormRc} />
           <Route exact path='/loginrc' component={LoginFormRc} />
+          <Route path="/startup-jobs" component={StartUpsPage}/>
          
         </Switch>
       </div>

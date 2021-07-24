@@ -17,6 +17,12 @@
       "email": "999deepaknegi@gmail.com",
       "pass": "123123",
       "id": 3
+    },
+    {
+      "full_name": "shubham verma",
+      "email": "shubhamv562@gmail.com",
+      "pass": "123",
+      "id": 4
     }
   ],
   "recruiter": [
@@ -37,6 +43,12 @@
       "email": "111deepaknegi@gmail.com",
       "pass": "123123",
       "id": 3
+    },
+    {
+      "full_name": "shubham verma",
+      "email": "shubhamv562@gmail.com",
+      "pass": "123",
+      "id": 4
     }
   ],
   "company": [
@@ -1340,11 +1352,32 @@
       "id": 3
     },
     {
-      "name": "Moveworks",
-      "description": "Instant help at work",
-      "image": "https://photos.angel.co/startups/i/6899437-cf011492eafda08309550576aa859b8b-medium_jpg.jpg?buster=1626384757",
+      "name": "Typeset",
+      "description": "Google Docs For Research. Join us if you want to solve Challenging Technology problems!",
+      "image": "https://photos.angel.co/startups/i/517943-03ae92ca8a409131651b57a1da8f48c6-medium_jpg.jpg?buster=1466089412",
       "date": "7/24/2021",
       "id": 4
+    },
+    {
+      "name": "Equity Data Science",
+      "description": "Quantitative Analytics for Fundamental Investors",
+      "image": "https://photos.angel.co/startups/i/8406198-85d0c8e99b0799527046e2af3d54367c-medium_jpg.jpg?buster=1625001369",
+      "date": "7/24/2021",
+      "id": 5
+    },
+    {
+      "name": "HRvisory",
+      "description": "We make it easier for start-ups to handle their HR challenges!",
+      "image": "https://photos.angel.co/startups/i/8296277-0dbdb640af062212888325b86ad126f6-medium_jpg.jpg?buster=1618646477",
+      "date": "7/24/2021",
+      "id": 6
+    },
+    {
+      "name": "ShujaBITS Infotech Solutions",
+      "description": "Building innovative software products for start-ups in niche domains",
+      "image": "https://photos.angel.co/startups/i/8041883-469eb5587bb7aedcf1520cb10213b96e-medium_jpg.jpg?buster=1603783727",
+      "date": "7/24/2021",
+      "id": 7
     }
   ],
   "profile": {
