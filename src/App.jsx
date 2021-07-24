@@ -20,6 +20,7 @@ function App() {
           <Route exact path='/login' component={LoginForm} />
           <Route exact path='/joinrc' component={RegisterFormRc} />
           <Route exact path='/loginrc' component={LoginFormRc} />
+         
         </Switch>
       </div>
     </Router>
