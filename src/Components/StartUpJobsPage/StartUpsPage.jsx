@@ -2,9 +2,9 @@ import styled from "styled-components";
 import styles from "./StartUpsPageComponents/StartUps.module.css";
 import { v4 as uuid } from "uuid";
 import { BlogDiv } from "./StartUpsPageComponents/BlogDiv";
-import { Top } from "../LandingPage/Top";
+
 import { FooterMain } from "../LandingPage/FooterMain";
-import { Redirect } from 'react-router'
+
 import Header from "../LandingPage/Header";
 
 const Wrapper = styled.div`
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 `;
 
 const TopBox = styled.div`
-  max-width: 1136px;;
+  max-width: 1136px;
   padding: 40px;
   text-align: center;
   margin: auto;
@@ -181,7 +181,7 @@ export function StartUpsPage() {
     <Wrapper>
       <div>
       <Header></Header>
-      {/* <Top></Top> */}
+     
       <TopBox>
         <h1> Find your dream startup job</h1>
         <p>
