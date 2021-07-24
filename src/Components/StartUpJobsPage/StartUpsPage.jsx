@@ -181,7 +181,7 @@ export function StartUpsPage() {
     <Wrapper>
       <div>
       <Header></Header>
-      <Top></Top>
+      {/* <Top></Top> */}
       <TopBox>
         <h1> Find your dream startup job</h1>
         <p>
