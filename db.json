@@ -1,4 +1,44 @@
 {
+  "user": [
+    {
+      "id": 1,
+      "full_name": "user user",
+      "email": "test@user.com",
+      "pass": "123123"
+    },
+    {
+      "full_name": "test1",
+      "email": "test1@gmail.com",
+      "pass": "test123123",
+      "id": 2
+    },
+    {
+      "full_name": "dpk",
+      "email": "999deepaknegi@gmail.com",
+      "pass": "123123",
+      "id": 3
+    }
+  ],
+  "recruiter": [
+    {
+      "id": 1,
+      "full_name": "test test",
+      "email": "test@rec.com",
+      "pass": "1001000"
+    },
+    {
+      "full_name": "rec deependra",
+      "email": "916deepaknegi@rec.com",
+      "pass": "rec123123",
+      "id": 2
+    },
+    {
+      "full_name": "deepak",
+      "email": "111deepaknegi@gmail.com",
+      "pass": "123123",
+      "id": 3
+    }
+  ],
   "company": [
     {
       "id": 1,
@@ -1264,6 +1304,17 @@
       "location": "Delhi • Mumbai • Bengaluru • Remote possible",
       "salaryMin": 5,
       "salaryMax": 18
+    },
+    {
+      "name": "masai school",
+      "desc": "NA",
+      "employees": "4554",
+      "image": "https://via.placeholder.com/300.png",
+      "job": "sde1",
+      "location": "BL",
+      "salaryMin": "150000",
+      "salaryMax": "2000000",
+      "id": 116
     }
   ],
   "applied": [
