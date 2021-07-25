@@ -5,6 +5,7 @@ import { Nav } from "./Nav";
 import { SideBar } from "./SideBar";
 import styled from "styled-components";
 import { Applied } from "./Applied";
+import { Assessment } from "./Assessment";
 import { Switch, Route, useRouteMatch } from 'react-router-dom'
 
 const Main = styled.div`
@@ -69,6 +70,9 @@ export function AngelList() {
         <Switch>
           <Route path={`${path}/applied`}>
             <Applied></Applied>
+          </Route>
+          <Route path={`${path}/assessment`}>
+            <Assessment></Assessment>
           </Route>
           <Route path="/jobs">
             <Jobs company={company} lastJobRef={lastJobRef} loading={loading}></Jobs>

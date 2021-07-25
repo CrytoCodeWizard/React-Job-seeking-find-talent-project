@@ -33,6 +33,7 @@ export function SideBar() {
                 <span>Applied</span>
             </div>
             </Link>
+            <Link to="/jobs/assessment">
             <div onClick={()=>{handleSelect(3)}} className={isSelect===3 ? styles.third:null}>
                 <svg fill="none" height="24" viewBox="0 0 24 24" width="24">
                     <path d="M20 11V22C20 22.2652 19.8946 22.5196 19.7071 22.7071C19.5196 22.8946 19.2652 23 19 23H2C1.73478 23 1.48043 22.8946 1.29289 22.7071C1.10536 22.5196 1 22.2652 1 22V3C1 2.73478 1.10536 2.48043 1.29289 2.29289C1.48043 2.10536 1.73478 2 2 2H15" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
@@ -41,6 +42,7 @@ export function SideBar() {
                 </svg>
                 <span>Assessments</span>
             </div>
+            </Link>
         </div>
     )
 }
