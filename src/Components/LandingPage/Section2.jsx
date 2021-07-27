@@ -98,15 +98,16 @@ export default function Section2() {
 
     h1{
 
-        margin-left: 300px;
+        margin-left: 250px;
         font-size: 45px;
         color: white;
     }
 
     button{
-        margin-left: 41%;
         width: 230px;
         height: 60px;
+        margin-left: 41%;
+        margin-top:35px;
         font-size: 20px;
         border-radius: 5px;
         border: none;
@@ -128,7 +129,7 @@ export default function Section2() {
     width: 200px;
     height: 51px;
     filter: invert(100);
-    margin-left: 640px;
+    margin-left:590px;
     top: -290px;
     `;
 

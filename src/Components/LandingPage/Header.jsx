@@ -38,6 +38,9 @@ div{
 div:hover{
 background-color: #f6f6f6;
 }
+&>a:first-child>div:hover{
+  background-color: white;
+}
 div>img{
 height: 30px;
 margin-top: 12px;

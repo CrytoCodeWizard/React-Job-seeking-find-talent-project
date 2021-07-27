@@ -86,7 +86,7 @@ export function Top(){
                         <h3>AngelList Talent</h3>
                         <img src="/images/talent.jpg" alt="Talent" />
                     </div>
-                    <p>Apply privately to 130,000+ tech & startup jobs with one application. See salary and equity upfront.</p>
+                    <p>Apply privately to 130,000+ tech & startup jobs with one application. See salary and equity upfront.</p><br />
                     <button>Find startup jobs</button>
                 </div>
                 <div>

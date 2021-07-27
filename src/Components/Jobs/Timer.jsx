@@ -15,7 +15,7 @@ export function Timer(){
     const handleStart=()=>{
       setStatus(true)
   
-      let m=1,s=0;
+      let m=3,s=0;
       
       timerRef.current=setInterval(() => {
           if(m===0&&s===0){

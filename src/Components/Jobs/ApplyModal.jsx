@@ -42,9 +42,10 @@ div>img{
 ul{
     list-style: none;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 ul>li{
-    margin-left: 0;
+    margin-left: -40px;
 }
 `;
 
@@ -117,7 +118,7 @@ z-index: 100;
 `;
 
 export function ApplyModal({open,onClose,data,user}){
-    const[loading,setLoading]=useState(0)
+    const[loading,setLoading]=useState(0);
     const time = new Date().toLocaleTimeString();
     const date = new Date().toLocaleDateString();
 

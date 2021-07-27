@@ -133,23 +133,22 @@ form{
 }
 input{
     width: 100%;
-    border-radius: 2px;
+    border-radius: 4px;
     border: 1px solid #dddddd;
     margin-top:  5px;
+    padding: 0 12px;
     margin-right:  50px;
     margin-left: 90px;
-    margin-bottom:  30px;
+    margin-bottom:  20px;
     font-size: 15px;
     height: 30px;
+    outline: none;
 
     &:focus{
-
-        outline: none;
+      border-color:#0a6cff;
     }
     &::placeholder{
       color: #888;
-      font-size: small;
-      padding-left: 20px;
     }
 }
 button{
@@ -174,6 +173,7 @@ button{
 `
 
 export default function Form() {
+  const[loading,setLoading]=useState(0);
 
   const [formData, setFormData] = useState({name:"", desc: "", employees: "", image: "", job: "", location: "", salaryMin: "", salaryMax: ""});
 
@@ -204,8 +204,17 @@ export default function Form() {
     .catch((err) => {
 
         console.log(err);
-    })
+    }).then(()=>{handleLoading()});
   }
+  const handleLoading=()=>{
+    setLoading(1);
+    setTimeout(() => {
+        setLoading(2)
+    },2000);
+    setTimeout(() => {
+        setLoading(0)
+    }, 3000);
+}
 
   return (
     <Main>
@@ -243,26 +252,26 @@ export default function Form() {
         <input onChange={handleChange} type="text" name="desc" placeholder="Masai is a seed-funded Edtech startup based out of Bangalore"/>
 
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Employees</label>
-        <input onChange={handleChange} type="text" name="employees" placeholder="153"/>
+        <input onChange={handleChange} type="text" name="employees" placeholder="100-200 employees"/>
 
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Image</label>
         <input onChange={handleChange} type="text" name="image" placeholder="image url"/>
 
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Job</label>
-        <input onChange={handleChange} type="text" name="job" placeholder="SDE-3 MERN Instructur"/>
+        <input onChange={handleChange} type="text" name="job" placeholder="SDE-2"/>
 
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Location</label>
         <input onChange={handleChange} type="text" name="location" placeholder="Bangalore"/>
         
         <div>
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Salary minimum</label>
-        <input onChange={handleChange} type="number" name="salaryMin" placeholder="15,00,000"/>
+        <input onChange={handleChange} type="number" name="salaryMin" placeholder="Salary in lakhs"/>
         
         <label style={{fontWeight: 500, fontSize: 16, color:"#272727", marginLeft: 90}}>Salary maximum</label>
-        <input onChange={handleChange} type="number" name="salaryMax" placeholder="50,00,000"/>
+        <input onChange={handleChange} type="number" name="salaryMax" placeholder="Salary in lakhs"/>
         </div>
        
-        <button onChange={handleChange} style={{cursor: "pointer"}} type="submit" value="Submit">SUBMIT</button>
+        <button onChange={handleChange} style={{cursor: "pointer"}} type="submit" value="Submit">{loading===1?"Posting job...":loading===0?"Submit":"Done"}</button>
 
       </form>
       </Input>

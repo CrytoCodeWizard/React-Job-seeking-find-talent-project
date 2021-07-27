@@ -15,11 +15,23 @@ const quizData = [
     answer: `module.exports`
   },
   {
+    id: 2,
+    question: `Duplication of data is called________.`,
+    options: [`Consistency`, `Redundancy`, `Inconsistency`],
+    answer: `Redundancy`
+  },
+  {
     id: 3,
     question: `Which method returns the current working directory of the process?`,
     options: [`process.cwd();`, `cwd();`, `pwd();`],
     answer: `cwd();`
-  }
+  },
+  {
+    id: 4,
+    question: `Which of the following will help to maintain unique record in the table?`,
+    options: [`Foreign Key`, `Composite Key`, `Primary Key`],
+    answer: `Primary Key`
+  },
 ];
 
 class Quiz extends React.Component {
@@ -96,7 +108,7 @@ class Quiz extends React.Component {
     if (isEnd) {
       return (
         <div className={styles.result}>
-          <h3>Game Over your Final score is {this.state.score} points </h3>
+          <h3>Assessment over, Your final score is {this.state.score} points </h3>
           <div>
             The correct answers for the questions are-
             <ol>
