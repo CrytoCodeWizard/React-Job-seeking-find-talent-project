@@ -1,8 +1,29 @@
-# Getting Started with Create React App
+# Project:- Clone of AngelList
+##### AngelList is a U.S. website for startups, angel investors, and job-seekers looking to work at startups. Founded in 2010, it started as an online introduction board for tech startups that needed seed funding.[3] Since 2015, the site allows startups to raise money from angel investors free of charge.
+We have created the clone of angel.co with all it's main functions like- Login & Signup, Search jobs, Apply to jobs, Post jobs and Assessment quiz.
+### Screenshots
+#### Landing page-
+![alt text](https://github.com/vshubhams/project-angel/blob/master/Screenshots/landinPage.PNG)
+#### SignUp page-
+![alt text](https://github.com/vshubhams/project-angel/blob/master/Screenshots/signUp.PNG)
+#### Jobs page-
+![alt text](https://github.com/vshubhams/project-angel/blob/master/Screenshots/jobs.PNG)
+#### Applied jobs page-
+![alt text](https://github.com/vshubhams/project-angel/blob/master/Screenshots/applied.PNG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Team members:-
+#### Abhishek Kumar [View GitHub profile](https://github.com/abhishekmah)
+#### N Sonam [View GitHub profile](https://github.com/Sonamkneelam)
+#### Dependra Negi  [View GitHub profile](https://github.com/Deependra-Negi)
+#### Shubham [View GitHub profile](https://github.com/vshubhams)
+### Technologies used:
+**ReactJs**
+### Pages Designed:
+Landing page, StartUp jobs page, Recruiter page, Jobs page, Post jobs page, Apply to jobs page and Assessment quiz page.
+#### Library used:
+Json-server, axios and styled-components.
 
-## Available Scripts
+## How to run this project
 
 In the project directory, you can run:
 
@@ -38,33 +59,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
