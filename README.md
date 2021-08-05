@@ -1,6 +1,9 @@
-# Project:- Clone of AngelList
-##### AngelList is a U.S. website for startups, angel investors, and job-seekers looking to work at startups. Founded in 2010, it started as an online introduction board for tech startups that needed seed funding.[3] Since 2015, the site allows startups to raise money from angel investors free of charge.
-We have created the clone of angel.co with all it's main functions like- Login & Signup, Search jobs, Apply to jobs, Post jobs and Assessment quiz.
+# Project:- Clone of angel.co
+##### AngelList is a website for startups, angel investors, and job-seekers looking to work at startups. Our objective was to clone the website with it's functionalities such as login, sign-up for job seeker and recruiter, along with job posting, job search and applying for jobs. After that wev'e also implimented a quize to brush up the concepts of the job seeker.
+We were able to achieve axact UI of the website, with all these major functionalities within 5-6 days.
+
+#Tech Stack : React
+
 ### Screenshots
 #### Landing page-
 ![alt text](https://github.com/vshubhams/project-angel/blob/master/Screenshots/landinPage.PNG)
