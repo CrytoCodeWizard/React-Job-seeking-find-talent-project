@@ -30,14 +30,14 @@ Json-server, axios and styled-components.
 
 In the project directory, you can run:
 
-`1. install node modules` npm i
+#1. install node modules `npm i`
 
-`2. install json-server` npm install -g json-server
+#2. install json-server `npm install -g json-server`
 
-`3. start json-server on port 3001`
+#3. start json-server on port 3001
 
-    3(a). `split the terminal` ctrl+shift+5
+    #3(a). split the terminal `ctrl+shift+5`
 
-    3(b). `start json-setver` json-server --watch db.json --port 3001
+    #3(b). start json-setver `json-server --watch db.json --port 3001`
 
-`4. start react app` npm start
+#4. start react app `npm start`
