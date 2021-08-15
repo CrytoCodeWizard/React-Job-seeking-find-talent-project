@@ -166,6 +166,7 @@ function LoginForm() {
   const [jobs, setJobs] = useState(false);
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+
   const handleSubmit = (event) => {
     event.preventDefault();
   };
@@ -185,9 +186,6 @@ function LoginForm() {
         setJobs(true);
         return true;
       }
-      // else {
-      //   alert("wrong credentials")
-      // }
     }
   };
 

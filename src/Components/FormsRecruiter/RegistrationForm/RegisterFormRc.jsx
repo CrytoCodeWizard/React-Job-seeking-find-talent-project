@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-// import Header from "../../LandingPage/Header";
+import { useHistory } from "react-router-dom";
 
 //styled-components-------
  const Main1 = styled.div`
@@ -274,13 +274,23 @@ height: 140px;
 
 function RegisterForm() {
 
+  const [jobs, setJobs] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const history = useHistory()
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
   };
+
+   if (jobs === true) {
+    setTimeout(() => {
+      history.push('/loginrc')
+    }, 600);
+  }
+
   const handleSignUp = async () => {
     await axios.post("http://localhost:3001/recruiter", {
       full_name: name,
@@ -290,7 +300,7 @@ function RegisterForm() {
     setName("");
     setEmail("");
     setPass("");
-    alert("Thank You for registering.");
+    setJobs(true);
   };
 
   const handleChangeName = (e) => {
