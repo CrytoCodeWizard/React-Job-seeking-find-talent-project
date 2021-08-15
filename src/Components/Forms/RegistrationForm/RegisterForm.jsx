@@ -2,6 +2,9 @@ import styled from "styled-components";
 import { useState } from "react";
 import axios from "axios";
 import Header from "../../LandingPage/Header";
+import { useHistory } from "react-router-dom";
+import { Redirect } from "react-router";
+
 
 //styled-components-------
   
@@ -171,14 +174,25 @@ height: 140px;
 
 function RegisterForm() {
 
+  const [jobs, setJobs] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const history = useHistory()
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
   };
+
+  if (jobs === true) {
+    setTimeout(() => {
+      history.push('/login')
+    }, 600);
+  }
+
   const handleSignUp = async () => {
+    if(pass.length>=8){
     await axios.post("http://localhost:3001/user", {
       full_name: name,
       email: email,
@@ -187,7 +201,14 @@ function RegisterForm() {
     setName("");
     setEmail("");
     setPass("");
-    alert("Thank You for registering.");
+    setJobs(true);
+    }
+    else {
+      alert("Password is too short")
+      setName("");
+      setEmail("");
+      setPass("");
+    }
   };
 
   const handleChangeName = (e) => {
