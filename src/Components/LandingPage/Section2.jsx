@@ -5,22 +5,45 @@ export default function Section2() {
     const Main = styled.div`
     
     width: 100%;
-    
+
     `
     const Left = styled.div`
-    
+
     width: 40%;
     height: 400px;
     font-size: 30px;
     margin-left: 10%;
     float: left;
 
+    @media (max-width: 1230px) {
+        font-size: 25px;
+    }
+    @media (max-width: 1025px) {
+        font-size: 20px;
+        width: 60%;
+    }
+    @media (max-width: 1255px) {
+            display: flex;
+            flex-direction: column;
+        }
     p{
         font-size: 20px;
     }
     p:nth-child(3){
         font-size: 25px;
         // margin-bottom: -30px;
+    }
+    button{
+
+    width: 40%;
+    float: left;
+    background-color: #4139a7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    height: 50px;
     }
     `
 
@@ -34,18 +57,7 @@ export default function Section2() {
     p{
         font-size: 15px;
     }
-    button{
-
-        margin-top: 80px;
-        width: 95%;
-        background-color: #4139a7;
-        color: white;
-        cursor: pointer;
-        border-radius: 5px;
-        border: none;
-        font-size: 18px;
-        height: 50px;
-    }
+    
     `
     const Left2 = styled.div`
     
@@ -57,11 +69,13 @@ export default function Section2() {
         font-size: 15px;
     }
     `
-
     const P1 = styled.p`
 
-    margin-left: -45px;
+    margin-left: 35px;
+    margin-top: 8px;
     cursor: pointer;
+    float: left;
+    font-size: 1px;
     color: ${(props) => (props.color === "red" ? "#4139a7" : "#4139a7")};
     `
 
@@ -72,10 +86,31 @@ export default function Section2() {
 
     img{
 
-        margin-top: 200px;
+
+        @media (max-width: 1070px) {
+            margin-top: 320px;
+            
+        }
+        @media (max-width: 1020px) {
+            margin-left: 100px;
+        }
+        @media (max-width: 710px) {
+            margin-top: 500px;
+        }
+        @media (max-width: 525px) {
+            margin-top: 700px;
+        }
+        @media (max-width: 410px) {
+            margin-top: 900px;
+        }
+        @media (max-width: 360px) {
+            margin-top: 1100px;
+        }
+    
+        margin-top: 220px;
         margin-left: 180px;
-        width: 442px;
-        height: 376px;
+        width: 50%;
+        height: 40%;
     }
     `
     
@@ -87,6 +122,16 @@ export default function Section2() {
     margin-top: 230px;
     background-color: black;
 
+    @media (max-width: 968px) {
+        margin-top: 230px;
+    }
+
+    @media (max-width: 1275px) {
+            margin-top: 400px;
+        }
+    @media (max-width: 1025px) {
+            margin-top: 100px;
+        }
     img{
 
         margin-left: 45%;
@@ -95,9 +140,14 @@ export default function Section2() {
         width: 120px;
         height: 148px;
     }
-
+    div{
+        margin: auto;
+    }
     h1{
 
+        @media (max-width: 615px) {
+        font-size: 25px;
+    }
         margin-left: 250px;
         font-size: 45px;
         color: white;
@@ -106,7 +156,7 @@ export default function Section2() {
     button{
         width: 230px;
         height: 60px;
-        margin-left: 41%;
+        margin: 41%;
         margin-top:35px;
         font-size: 20px;
         border-radius: 5px;
@@ -120,6 +170,7 @@ export default function Section2() {
     
     width: 200px;
     height: 51px;
+    margin: auto;
     background-color: white;
     `
     
@@ -129,7 +180,6 @@ export default function Section2() {
     width: 200px;
     height: 51px;
     filter: invert(100);
-    margin-left:590px;
     top: -290px;
     `;
 
@@ -137,6 +187,7 @@ export default function Section2() {
     return (
         
         <Main>
+ 
             <Left>
             <p>AngelList Venture</p> 
             <h1>The platform for venture investing</h1>
@@ -145,30 +196,33 @@ export default function Section2() {
             <br />
 
             <Left1>
+                <div>
                 <h1>$1,000,000,000+</h1>
                 <p>flows through AngelList into thousands of investments.</p>
-                <button>Apply to be an investor</button>
+                </div>
+                
             </Left1>
             <Left2>
+                <div>
                 <h1>36% of top-tier U.S. VC deals</h1>
                 <p>were funded by investors through AngelList Venture.</p>
+                </div>
+                
                 <br />
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <P1 color="red" >Start a fund or syndicate</P1>
             </Left2>
+            <button>Apply to be an investor</button>
+            <P1 color="red" >Start a fund or syndicate</P1>
             </Left>
-
             <Right>
             <img src= "download.jpg" alt=""/>
             </Right>
 
             <Bottom>
             <img src= "download1.png" alt=""/>
-            <h1>Discover the best new products, every day.</h1>
+            <div><h1>Discover the best new products, every day.</h1></div>
             <button>Explore Products</button>
             </Bottom>
             
