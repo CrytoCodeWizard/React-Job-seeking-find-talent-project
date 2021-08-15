@@ -80,7 +80,7 @@ export function Top(){
                 <p>Experience the startup ecosystem — invest in startups, research the fastest-growing companies, and find a job you love.</p>
             </TopBox>
 
-            {/* <CardBox>
+            <CardBox>
                 <div>
                     <div>
                         <h3>AngelList Talent</h3>
@@ -105,7 +105,7 @@ export function Top(){
                     <p>The next big thing in tech launches every day. A friendly community of millions of makers & early adopters awaits.</p>
                     <button>Explore products</button>
                 </div>
-            </CardBox> */}
+            </CardBox>
         </Wrapper>
     )
 }
