@@ -73,6 +73,7 @@ div:nth-child(3) button{
 
 export function Top(){
     return(
+       
         <Wrapper>
             <TopBox>
                 <img src="/images/AngelList.png" alt="" />
