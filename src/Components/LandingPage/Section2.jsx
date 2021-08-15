@@ -18,14 +18,14 @@ export default function Section2() {
     @media (max-width: 1230px) {
         font-size: 25px;
     }
-    @media (max-width: 1025px) {
-        font-size: 20px;
-        width: 60%;
-    }
     @media (max-width: 1255px) {
             display: flex;
             flex-direction: column;
         }
+    @media (max-width: 1025px) {
+        font-size: 20px;
+        width: 80%;
+    }
     p{
         font-size: 20px;
     }
@@ -35,15 +35,19 @@ export default function Section2() {
     }
     button{
 
-    width: 40%;
-    float: left;
-    background-color: #4139a7;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    font-size: 18px;
-    height: 50px;
+        @media (max-width: 400px) {
+            margin-left: 15%;
+            width: 70%;
+        }
+        width: 40%;
+        float: left;
+        background-color: #4139a7;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        height: 50px;
     }
     `
 
@@ -57,7 +61,10 @@ export default function Section2() {
     p{
         font-size: 15px;
     }
-    
+    @media (max-width: 400px) {
+        font-size: 15px;
+        width: 100%;
+        }
     `
     const Left2 = styled.div`
     
@@ -65,6 +72,15 @@ export default function Section2() {
     float: left;
     font-size: 10px;
 
+    @media (max-width: 400px) {
+        font-size: 14px;
+        width: 100%;
+        }
+    h1{
+        @media (max-width: 1020px) {
+            margin-top: 50px;
+        }
+    }
     p{
         font-size: 15px;
     }
@@ -93,6 +109,8 @@ export default function Section2() {
         }
         @media (max-width: 1020px) {
             margin-left: 100px;
+            width: 70%;
+            height: 50%;
         }
         @media (max-width: 710px) {
             margin-top: 500px;
@@ -103,8 +121,10 @@ export default function Section2() {
         @media (max-width: 410px) {
             margin-top: 900px;
         }
-        @media (max-width: 360px) {
-            margin-top: 1100px;
+        @media (max-width: 400px) {
+            margin-top: 600px;
+            width: 100%;
+            height: 50%;
         }
     
         margin-top: 220px;
@@ -132,29 +152,39 @@ export default function Section2() {
     @media (max-width: 1025px) {
             margin-top: 100px;
         }
-    img{
 
+    img{
+        @media (max-width: 500px) {
+            margin-left: 35%;
+        }
         margin-left: 45%;
         margin-top: -70px;
         margin-bottom: 80px;
         width: 120px;
         height: 148px;
     }
-    div{
-        margin: auto;
-    }
+    
     h1{
 
         @media (max-width: 615px) {
         font-size: 25px;
     }
-        margin-left: 250px;
+        @media (max-width: 400px) {
+        font-size: 20px;
+        }
+        margin-left: 20%;
         font-size: 45px;
         color: white;
     }
 
     button{
-        width: 230px;
+
+        @media (max-width: 500px) {
+        width: 200px;
+        margin-left: 22%;
+        /* margin-top: 50px; */
+        }
+        width: 18%;
         height: 60px;
         margin: 41%;
         margin-top:35px;
@@ -222,7 +252,7 @@ export default function Section2() {
 
             <Bottom>
             <img src= "download1.png" alt=""/>
-            <div><h1>Discover the best new products, every day.</h1></div>
+            <h1>Discover the best new products, every day.</h1>
             <button>Explore Products</button>
             </Bottom>
             
