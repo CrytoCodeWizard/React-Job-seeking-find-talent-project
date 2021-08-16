@@ -35,138 +35,6 @@
       "email": "shubhamv562@gmail.com",
       "pass": "123",
       "id": 6
-    },
-    {
-      "full_name": "gcghc",
-      "email": "gcgc@fdfd",
-      "pass": "123123123",
-      "id": 7
-    },
-    {
-      "full_name": "ghvhvv",
-      "email": "vgghv@",
-      "pass": "12121221",
-      "id": 8
-    },
-    {
-      "full_name": "sdsdsd",
-      "email": "hgvhgvg@xxf",
-      "pass": "123123123",
-      "id": 9
-    },
-    {
-      "full_name": "jbbjb",
-      "email": "gh@ddf",
-      "pass": "123123123",
-      "id": 10
-    },
-    {
-      "full_name": "hjhh",
-      "email": "hvhvv@sdsd.mlm",
-      "pass": "123123123",
-      "id": 11
-    },
-    {
-      "full_name": "mvbjvjvvj",
-      "email": "nhvvhjv",
-      "pass": "123123123",
-      "id": 12
-    },
-    {
-      "full_name": "jgjhg",
-      "email": "hjghgh",
-      "pass": "123123123",
-      "id": 13
-    },
-    {
-      "full_name": "hgfhg",
-      "email": "ghghch",
-      "pass": "535545646546",
-      "id": 14
-    },
-    {
-      "full_name": "jhgjhh",
-      "email": "hghghghjgg",
-      "pass": "ghjjghghjgj",
-      "id": 15
-    },
-    {
-      "full_name": "hvhhvgv",
-      "email": "gchgccghgc",
-      "pass": "gghchcghc",
-      "id": 16
-    },
-    {
-      "full_name": "jbjkgjhhgjgh",
-      "email": "gjgjhghghjg",
-      "pass": "jggjhgjh",
-      "id": 17
-    },
-    {
-      "full_name": "bbbbbb",
-      "email": "ghgvhgghcg",
-      "pass": "gchcgchgchg",
-      "id": 18
-    },
-    {
-      "full_name": "jgyyffhg",
-      "email": "fghhffff",
-      "pass": "fhfghfghfg",
-      "id": 19
-    },
-    {
-      "full_name": "jhjhvjhv",
-      "email": "vjhjvjhvjv",
-      "pass": "jhvjhvjhvj",
-      "id": 20
-    },
-    {
-      "full_name": "gvhghvgvhv",
-      "email": "hvhvhvvghvgv",
-      "pass": "gvhgvghvghg",
-      "id": 21
-    },
-    {
-      "full_name": "ghvhggghghc",
-      "email": "ghghchccgh",
-      "pass": "cghghchcccg",
-      "id": 22
-    },
-    {
-      "full_name": "gchgchcc",
-      "email": "ghcghcghccg",
-      "pass": "gcghhgccggh",
-      "id": 23
-    },
-    {
-      "full_name": "mhvvjhvjv",
-      "email": "hjvvjvjhv",
-      "pass": "jvjhvjhvjvh",
-      "id": 24
-    },
-    {
-      "full_name": "nvggggh",
-      "email": "chgcchgc",
-      "pass": "gcghhgcgchgcgh",
-      "id": 25
-    },
-    {
-      "full_name": "dpknew",
-      "email": "dpk@user.com",
-      "pass": "123123123",
-      "id": 26
-    },
-    {
-      "full_name": "jhvhjvjv",
-      "email": "jvjvvjhvjhvvjh",
-      "pass": "jhvjvjvjh",
-      "id": 27
-    },
-    {
-      "full_name": "nhvhjvhjv",
-      "email": "hjvjhvvhjvhv",
-      "pass": "jhvhjvhvhvhj",
-      "id": 28
     }
   ],
   "recruiter": [
@@ -1471,6 +1339,17 @@
       "salaryMin": "6",
       "salaryMax": "11",
       "id": 116
+    },
+    {
+      "name": "",
+      "desc": "",
+      "employees": "",
+      "image": "",
+      "job": "",
+      "location": "",
+      "salaryMin": "",
+      "salaryMax": "",
+      "id": 117
     }
   ],
   "applied": [

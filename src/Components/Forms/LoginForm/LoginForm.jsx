@@ -166,6 +166,29 @@ function LoginForm() {
   const [jobs, setJobs] = useState(false);
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const [loading, setLoading] = useState(0);
+  
+  const handleLoading = (check) => {
+    if (!check) {
+      setLoading(1);
+      setTimeout(() => {
+          setLoading(3)
+      },2000);
+      setTimeout(() => {
+        setLoading(0)
+      }, 3000);
+    }
+    else {
+      setLoading(1);
+      setTimeout(() => {
+          setLoading(2)
+      },2000);
+      setTimeout(() => {
+        setLoading(0)
+        setJobs(true);
+      }, 3000);
+    }
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -183,11 +206,16 @@ function LoginForm() {
         localStorage.setItem("user", JSON.stringify(data[i]))
         setEmail("");
         setPass("");
-        setJobs(true);
+        handleLoading(true);
         return true;
+      }
+      else {
+        handleLoading(false);
       }
     }
   };
+
+
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
@@ -228,7 +256,7 @@ function LoginForm() {
                         </LeftEl>
                         <LeftEl>
                           <button onClick={handleLogin}>
-                            Login
+                          {loading===1?"Loging...":loading===0?"Login":loading==3?"Failed":"Successful"}
                           </button>
                         </LeftEl>
                         <LeftEl>

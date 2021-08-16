@@ -70,7 +70,7 @@ function Box({handleQuiz}){
         </div>
         <h3>Back-End Web</h3>
         <p>Algorithms, data, structures, databases</p>
-        <span>10 Questions</span><br />
+        <span>5 Questions</span><br />
         <button onClick={handleQuiz}>Start Assessment</button>
       </div>
     </Wrapper>

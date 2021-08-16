@@ -11,13 +11,13 @@ position: sticky;
 top: 0;
 height: 80px;
 background-color: white;
+z-index: 100;
 box-shadow: 0 .1px 5px #ccc;
 
 nav{
   display: flex;
   max-width: 1158px;
   height: 80px;
-  
   background-color: white;
   top: 0;
   z-index: 3;
@@ -270,9 +270,33 @@ function LoginForm() {
   const [rec, setRec] = useState(false);
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const [loading, setLoading] = useState(0);
+
   const handleSubmit = (event) => {
     event.preventDefault();
   };
+
+  const handleLoading = (check) => {
+    if (!check) {
+      setLoading(1);
+      setTimeout(() => {
+          setLoading(3)
+      },2000);
+      setTimeout(() => {
+        setLoading(0)
+      }, 3000);
+    }
+    else {
+      setLoading(1);
+      setTimeout(() => {
+          setLoading(2)
+      },2000);
+      setTimeout(() => {
+        setLoading(0)
+        setRec(true);
+      }, 3000);
+    }
+  }
 
   if (rec === true) {
     return <Redirect to='/recruit/create-jobs' />;
@@ -284,8 +308,11 @@ function LoginForm() {
       if (data[i].email === email && data[i].pass === pass) {
         setEmail("");
         setPass("");
-        setRec(true);
+        handleLoading(true);
         return true;
+      }
+      else {
+        handleLoading(false)
       }
       // else {
       //   alert("wrong credentials")
@@ -353,7 +380,7 @@ function LoginForm() {
                         </LeftEl>
                         <LeftEl>
                           <button onClick={handleLogin}>
-                            Login
+                          {loading===1?"Loging...":loading===0?"Login":loading==3?"Failed":"Successful"}
                           </button>
                         </LeftEl>
                         <LeftEl>

@@ -9,6 +9,7 @@ import { useHistory } from "react-router-dom";
 position: sticky;
 top: 0;
 height: 80px;
+z-index: 100;
 background-color: white;
 box-shadow: 0 .1px 5px #ccc;
 
@@ -19,7 +20,6 @@ nav{
   
   background-color: white;
   top: 0;
-  z-index: 3;
   margin: auto;
   // margin-bottom: -50px; 
   justify-content: space-between;
@@ -278,6 +278,7 @@ function RegisterForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const [bool,setBool] =  useState(false)
   const history = useHistory()
 
 
@@ -285,10 +286,10 @@ function RegisterForm() {
     event.preventDefault();
   };
 
-   if (jobs === true) {
+  if (jobs === true) {
     setTimeout(() => {
       history.push('/loginrc')
-    }, 600);
+    }, 1000);
   }
 
   const handleSignUp = async () => {
@@ -297,6 +298,7 @@ function RegisterForm() {
       email: email,
       pass: pass,
     });
+    setBool(true)
     setName("");
     setEmail("");
     setPass("");
@@ -375,7 +377,7 @@ function RegisterForm() {
                         </LeftEl>
                         <LeftEl>
                           <button onClick={handleSignUp}>
-                            Sign up
+                            {bool?"Signing...":"Sign up"}
                           </button>
                         </LeftEl>
                         <LeftEl>

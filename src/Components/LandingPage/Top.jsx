@@ -33,6 +33,21 @@ const CardBox=styled.div`
     justify-content: space-between;
 *{
     margin: 0;
+}
+@media only screen and (max-width: 700px) {
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    &>div{
+        margin: auto;
+    }
+}    
+@media only screen and (max-width: 1000px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
 }    
 div{
     width: 340px;

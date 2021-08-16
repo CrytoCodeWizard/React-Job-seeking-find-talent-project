@@ -17,6 +17,8 @@ export default function Section1() {
   const GrowCareer = styled.div`
     /* width: 100%;
     max-width: 1136px; */
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -212,7 +214,7 @@ export default function Section1() {
       margin: 0;
       padding: 0;
       position: relative;
-      font-size: 230px;
+      font-size: 12vw;
       font-weight: 800;
       text-align: center;
       font-family: Helvetica;
