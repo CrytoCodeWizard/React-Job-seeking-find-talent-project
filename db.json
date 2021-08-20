@@ -29,12 +29,6 @@
       "email": "admin@gamil.com",
       "pass": "123",
       "id": 5
-    },
-    {
-      "full_name": "Shubham verma",
-      "email": "shubhamv562@gmail.com",
-      "pass": "123",
-      "id": 6
     }
   ],
   "recruiter": [
@@ -42,7 +36,7 @@
       "id": 1,
       "full_name": "test test",
       "email": "test@rec.com",
-      "pass": "1001000"
+      "pass": "123123123"
     },
     {
       "full_name": "rec deependra",
@@ -1350,6 +1344,17 @@
       "salaryMin": "",
       "salaryMax": "",
       "id": 117
+    },
+    {
+      "name": "",
+      "desc": "",
+      "employees": "",
+      "image": "",
+      "job": "",
+      "location": "",
+      "salaryMin": "",
+      "salaryMax": "",
+      "id": 118
     }
   ],
   "applied": [

@@ -192,7 +192,8 @@ function RegisterForm() {
   }
 
   const handleSignUp = async () => {
-    if(pass.length>=8){
+    if (pass.length >= 8 && axios.get("http://localhost:3001/user").then(res => res.data.map((em) => (em.email !== email)))) {
+      
     await axios.post("http://localhost:3001/user", {
       full_name: name,
       email: email,
