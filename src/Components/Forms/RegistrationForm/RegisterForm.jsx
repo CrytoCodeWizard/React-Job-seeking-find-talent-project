@@ -7,7 +7,7 @@ import { Redirect } from "react-router";
 
 
 //styled-components-------
-  
+
 const Wrapper = styled.div`
 *{padding: 0;
 margin: 0;
@@ -191,25 +191,40 @@ function RegisterForm() {
     }, 600);
   }
 
-  const handleSignUp = async () => {
-    if (pass.length >= 8 && axios.get("http://localhost:3001/user").then(res => res.data.map((em) => (em.email !== email)))) {
-      
-    await axios.post("http://localhost:3001/user", {
+  const postUser = () => {
+    axios.post("http://localhost:3001/user", {
       full_name: name,
       email: email,
       pass: pass,
-    });
-    setName("");
-    setEmail("");
-    setPass("");
-    setJobs(true);
-    }
-    else {
-      alert("Password is too short")
+    }).then(() => {
       setName("");
       setEmail("");
       setPass("");
+      setJobs(true);
+    })
+  }
+  
+  const handleSignUp = () => {
+    if (pass.length < 8) {
+      alert("Password is too short");
+      return;
     }
+    axios.get("http://localhost:3001/user")
+    .then((res) => {
+      let bool = true;
+      res.data.forEach((el) => {
+        if (el.email === email) {
+          alert('Email is already existed');
+          bool = false;
+          return;
+        }
+      })
+      if (bool) {
+        postUser();
+      }
+      return;
+    })
+    
   };
 
   const handleChangeName = (e) => {
@@ -230,51 +245,51 @@ function RegisterForm() {
           <div>
             <h1>Sign UP</h1>
             <FormCont>
-                <Left>
-                    <form onSubmit={handleSubmit}>
-                      <input
-                        value={name}
-                        type="text"
-                        name="fullname"
-                        id="fullname"
-                        placeholder="Your full name"
-                        onChange={handleChangeName}
-                        />
-                        <LeftEl>
-                      <input
-                        value={email}
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                        onChange={handleChangeEmail}
-                        />
-                        </LeftEl>
-                        <LeftEl>
-                      <input
-                        value={pass}
-                        type="password"
-                        name="password"
-                        id="password"
-                        placeholder="Password (min 8 characters)"
-                        onChange={handleChangePass}
-                        />
-                        </LeftEl>
-                        <LeftEl>
-                          <button onClick={handleSignUp}>
-                            Sign up
-                          </button>
-                        </LeftEl>
-                        <LeftEl>
-                          <p> By signing up, I agree to AngelList's <Span>Terms of Service</Span> and <Span>Privacy Policy</Span>.</p>
-                        </LeftEl>
-                      </form>
-                </Left>
-                <Right>
-                      <div>
-                        <div>G</div><div>Sign up with Google</div>
-                      </div>
-                </Right>    
+              <Left>
+                <form onSubmit={handleSubmit}>
+                  <input
+                    value={name}
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="Your full name"
+                    onChange={handleChangeName}
+                  />
+                  <LeftEl>
+                    <input
+                      value={email}
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      onChange={handleChangeEmail}
+                    />
+                  </LeftEl>
+                  <LeftEl>
+                    <input
+                      value={pass}
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Password (min 8 characters)"
+                      onChange={handleChangePass}
+                    />
+                  </LeftEl>
+                  <LeftEl>
+                    <button onClick={handleSignUp}>
+                      Sign up
+                    </button>
+                  </LeftEl>
+                  <LeftEl>
+                    <p> By signing up, I agree to AngelList's <Span>Terms of Service</Span> and <Span>Privacy Policy</Span>.</p>
+                  </LeftEl>
+                </form>
+              </Left>
+              <Right>
+                <div>
+                  <div>G</div><div>Sign up with Google</div>
+                </div>
+              </Right>
             </FormCont>
             <Space></Space>
             <FormEnd>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./quiz.module.css"
 import {Timer} from "./Timer"
 const quizData = [
@@ -34,128 +34,101 @@ const quizData = [
   },
 ];
 
-class Quiz extends React.Component {
-  state = {
-    currentQuestion: 0,
-    myAnswer: null,
-    options: [],
-    score: 0,
-    disabled: true,
-    isEnd: false
+function Quiz() {
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [myAnswer, setMyAnswer] = useState(null);
+  const [options, setOptions] = useState([]);
+  const [score, setScore] = useState(0);
+  const [disabled, setDisabled] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
+
+  const [questions, setQuestions] = useState('');
+  const [answer, setAnswer] = useState('');
+
+  const loadQuizData = () => {
+    setQuestions(quizData[currentQuestion].question);
+    setAnswer(quizData[currentQuestion].answer);
+    setOptions(quizData[currentQuestion].options);
   };
 
-  loadQuizData = () => {
-    // console.log(quizData[0].question)
-    this.setState(() => {
-      return {
-        questions: quizData[this.state.currentQuestion].question,
-        answer: quizData[this.state.currentQuestion].answer,
-        options: quizData[this.state.currentQuestion].options
-      };
-    });
-  };
-
-  componentDidMount() {
-    this.loadQuizData();
-  }
-  nextQuestionHandler = () => {
-    // console.log('test')
-    const { myAnswer, answer, score } = this.state;
+  useEffect(() => {
+    loadQuizData();
+  }, [currentQuestion])
+  
+  const nextQuestionHandler = () => {
 
     if (myAnswer === answer) {
-      this.setState({
-        score: score + 1
-      });
+      setScore(score + 1);
     }
 
-    this.setState({
-      currentQuestion: this.state.currentQuestion + 1
-    });
-    console.log(this.state.currentQuestion);
+    setCurrentQuestion(prev=>prev+1);
+    console.log(currentQuestion);
   };
 
-  componentDidUpdate(prevProps, prevState) {
-    if (this.state.currentQuestion !== prevState.currentQuestion) {
-      this.setState(() => {
-        return {
-          disabled: true,
-          questions: quizData[this.state.currentQuestion].question,
-          options: quizData[this.state.currentQuestion].options,
-          answer: quizData[this.state.currentQuestion].answer
-        };
-      });
+  const checkAnswer = (answer) => {
+    setMyAnswer(answer);
+    setDisabled(false);
+  };
+
+  const finishHandler = () => {
+    if (currentQuestion === quizData.length - 1) {
+      setIsEnd(true);
+    }
+    if (myAnswer === answer) {
+      setScore(score + 1);
     }
   }
-  //check answer
-  checkAnswer = (answer) => {
-    this.setState({ myAnswer: answer, disabled: false });
-  };
-  finishHandler = () => {
-    if (this.state.currentQuestion === quizData.length - 1) {
-      this.setState({
-        isEnd: true
-      });
-    }
-    if (this.state.myAnswer === this.state.answer) {
-      this.setState({
-        score: this.state.score + 1
-      });
-    }
-  };
-  render() {
-    const { options, myAnswer, currentQuestion, isEnd } = this.state;
 
-    if (isEnd) {
-      return (
-        <div className={styles.result}>
-          <h3>Assessment over, Your final score is {this.state.score} points </h3>
-          <div>
-            The correct answers for the questions are-
-            <ol>
-              {quizData.map((item, index) => (
-                <li className={styles.li}  key={index}>{item.answer}</li>
-              ))}
-            </ol>
-          </div>
+  if (isEnd) {
+    return (
+      <div className={styles.result}>
+        <h3>Assessment over, Your final score is {score} points </h3>
+        <div>
+          The correct answers for the questions are-
+          <ol>
+            {quizData.map((item, index) => (
+              <li className={styles.li}  key={index}>{item.answer}</li>
+            ))}
+          </ol>
         </div>
-      );
-    } else {
-      return (
-        <div className={styles.app}>
-          <div>
-          <span>{`Questions ${currentQuestion + 1}  out of ${quizData.length}`}</span>
-          <Timer></Timer>
-          </div>
-          <h1>{this.state.questions} </h1>
-          <div>
-          {options.map((option) => (
-            <p
-              key={option.id}
-              className={myAnswer === option ? styles.selected : null}
-              onClick={() => this.checkAnswer(option)}
-            >
-              {option}
-            </p>
-          ))}
-          </div>
-          {currentQuestion < quizData.length - 1 && (
-            <button
-              className={styles.button}
-              disabled={this.state.disabled}
-              onClick={this.nextQuestionHandler}
-            >
-              Next
-            </button>
-          )}
-          {/* //adding a finish button */}
-          {currentQuestion === quizData.length - 1 && (
-            <button className={styles.button} onClick={this.finishHandler}>
-              Finish
-            </button>
-          )}
+      </div>
+    );
+  } else {
+    return (
+      <div className={styles.app}>
+        <div>
+        <span>{`Questions ${currentQuestion + 1}  out of ${quizData.length}`}</span>
+        <Timer></Timer>
         </div>
-      );
-    }
+        <h1>{questions} </h1>
+        <div>
+        {options.map((option,index) => (
+          <p
+            key={index}
+            className={myAnswer === option ? styles.selected : null}
+            onClick={() => checkAnswer(option)}
+          >
+            {option}
+          </p>
+        ))}
+        </div>
+        {currentQuestion < quizData.length - 1 && (
+          <button
+            className={styles.button}
+            disabled={disabled}
+            onClick={nextQuestionHandler}
+          >
+            Next
+          </button>
+        )}
+        
+        {currentQuestion === quizData.length - 1 && (
+          <button className={styles.button} onClick={finishHandler}>
+            Finish
+          </button>
+        )}
+      </div>
+    );
   }
 }
 

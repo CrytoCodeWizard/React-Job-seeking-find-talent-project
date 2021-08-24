@@ -3,9 +3,6 @@ import { useEffect, useRef, useState } from "react";
 export function Timer(){
     const[min,setMin]=useState(0)
     const[sec,setSec]=useState(0)
-    const [status,setStatus]= useState(false);
-    const minRef=useRef()
-    const secRef=useRef()
     const timerRef = useRef();
   
     useEffect(()=>{
@@ -13,7 +10,6 @@ export function Timer(){
     },[])
   
     const handleStart=()=>{
-      setStatus(true)
   
       let m=3,s=0;
       

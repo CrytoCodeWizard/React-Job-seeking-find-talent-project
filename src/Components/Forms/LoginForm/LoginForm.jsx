@@ -204,8 +204,6 @@ function LoginForm() {
       if (data[i].email === email && data[i].pass === pass) {
         console.log(data[i])
         localStorage.setItem("user", JSON.stringify(data[i]))
-        setEmail("");
-        setPass("");
         handleLoading(true);
         return true;
       }
@@ -256,7 +254,7 @@ function LoginForm() {
                         </LeftEl>
                         <LeftEl>
                           <button onClick={handleLogin}>
-                          {loading===1?"Loging...":loading===0?"Login":loading==3?"Failed":"Successful"}
+                          {loading===1?"Logging...":loading===0?"Login":loading==3?"Failed":"Successful"}
                           </button>
                         </LeftEl>
                         <LeftEl>
