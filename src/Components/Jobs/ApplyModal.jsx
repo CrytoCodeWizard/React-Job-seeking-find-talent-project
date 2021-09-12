@@ -123,7 +123,7 @@ export function ApplyModal({open,onClose,data,user}){
     const date = new Date().toLocaleDateString();
 
     const handleSubmit=()=>{
-        axios.post('http://localhost:3001/applied', {
+        axios.post('https://woowax.herokuapp.com/applied', {
             name: data.name,
             description: data.desc,
             image:data.image,

@@ -197,7 +197,7 @@ export default function Form() {
     e.preventDefault();
     console.log(formData);
 
-    axios.post("http://localhost:3001/company",{...formData}).then((res) => {
+    axios.post("https://woowax.herokuapp.com/company",{...formData}).then((res) => {
 
         console.log(res);
     })

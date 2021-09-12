@@ -303,7 +303,7 @@ function LoginForm() {
   }
 
   const handleLogin = async () => {
-    let { data } = await axios.get("http://localhost:3001/recruiter");
+    let { data } = await axios.get("https://woowax.herokuapp.com/recruiter");
     for (let i = 0; i < data.length; i++) {
       if (data[i].email === email && data[i].pass === pass) {
         setEmail("");

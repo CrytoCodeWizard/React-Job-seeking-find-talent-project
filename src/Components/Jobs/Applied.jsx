@@ -60,7 +60,7 @@ export function Applied() {
     }, []);
 
     const handleApplied = () => {
-        axios.get(`http://localhost:3001/applied`).then(({ data }) => {
+        axios.get(`https://woowax.herokuapp.com/applied`).then(({ data }) => {
             console.log('data:', data)
             setApplied(data)
         });

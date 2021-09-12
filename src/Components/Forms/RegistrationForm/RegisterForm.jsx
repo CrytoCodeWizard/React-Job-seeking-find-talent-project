@@ -192,7 +192,7 @@ function RegisterForm() {
   }
 
   const postUser = () => {
-    axios.post("http://localhost:3001/user", {
+    axios.post("https://woowax.herokuapp.com/user", {
       full_name: name,
       email: email,
       pass: pass,
@@ -209,7 +209,7 @@ function RegisterForm() {
       alert("Password is too short");
       return;
     }
-    axios.get("http://localhost:3001/user")
+    axios.get("https://woowax.herokuapp.com/user")
     .then((res) => {
       let bool = true;
       res.data.forEach((el) => {

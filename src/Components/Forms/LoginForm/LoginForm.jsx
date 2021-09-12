@@ -198,7 +198,7 @@ function LoginForm() {
     return <Redirect to='/jobs' />;
   }
   const handleLogin = async () => {
-    let { data } = await axios.get("http://localhost:3001/user");
+    let { data } = await axios.get("https://woowax.herokuapp.com/user");
     
     for (let i = 0; i < data.length; i++) {
       if (data[i].email === email && data[i].pass === pass) {
