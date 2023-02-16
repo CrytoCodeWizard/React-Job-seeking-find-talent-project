@@ -293,7 +293,7 @@ function RegisterForm() {
   }
 
   const handleSignUp = async () => {
-    await axios.post("https://woowax.herokuapp.com/recruiter", {
+    await axios.post(`${process.env.REACT_APP_ANGEL_API_KEY}/recruiter"`, {
       full_name: name,
       email: email,
       pass: pass,

@@ -192,7 +192,7 @@ function RegisterForm() {
   }
 
   const postUser = () => {
-    axios.post("https://woowax.herokuapp.com/user", {
+    axios.post(`${process.env.REACT_APP_ANGEL_API_KEY}/user`, {
       full_name: name,
       email: email,
       pass: pass,
@@ -209,7 +209,7 @@ function RegisterForm() {
       alert("Password is too short");
       return;
     }
-    axios.get("https://woowax.herokuapp.com/user")
+    axios.get(`${process.env.REACT_APP_ANGEL_API_KEY}/user`)
     .then((res) => {
       let bool = true;
       res.data.forEach((el) => {

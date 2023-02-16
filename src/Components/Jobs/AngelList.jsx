@@ -46,7 +46,7 @@ export function AngelList() {
   }, [page]);
 
   const handleAddCompany = () => {
-    axios.get(`https://woowax.herokuapp.com/company?_page=${page}&_limit=4`).then(({ data }) => {
+    axios.get(`${process.env.REACT_APP_ANGEL_API_KEY}/company?_page=${page}&_limit=4`).then(({ data }) => {
       console.log('data:', data)
       setCompany([...company, ...data])
       setLoading(false)
@@ -54,7 +54,7 @@ export function AngelList() {
   }
   const handleSearch = (query) => {
     console.log('query:', query)
-    axios.get(`https://woowax.herokuapp.com/company?q=${query}`).then(({ data }) => {
+    axios.get(`${process.env.REACT_APP_ANGEL_API_KEY}/company?q=${query}`).then(({ data }) => {
       console.log('data:', data)
       setCompany(data)
       setLoading(false)

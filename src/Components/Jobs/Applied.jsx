@@ -60,7 +60,7 @@ export function Applied() {
     }, []);
 
     const handleApplied = () => {
-        axios.get(`https://woowax.herokuapp.com/applied`).then(({ data }) => {
+        axios.get(`${process.env.REACT_APP_ANGEL_API_KEY}/applied`).then(({ data }) => {
             console.log('data:', data)
             setApplied(data)
         });

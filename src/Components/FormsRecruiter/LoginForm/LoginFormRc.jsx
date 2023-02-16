@@ -303,7 +303,7 @@ function LoginForm() {
   }
 
   const handleLogin = async () => {
-    let { data } = await axios.get("https://woowax.herokuapp.com/recruiter");
+    let { data } = await axios.get(`${process.env.REACT_APP_ANGEL_API_KEY}/recruiter`);
     for (let i = 0; i < data.length; i++) {
       if (data[i].email === email && data[i].pass === pass) {
         setEmail("");

@@ -197,7 +197,7 @@ export default function Form() {
     e.preventDefault();
     console.log(formData);
 
-    axios.post("https://woowax.herokuapp.com/company",{...formData}).then((res) => {
+    axios.post(`${process.env.REACT_APP_ANGEL_API_KEY}/company`,{...formData}).then((res) => {
 
         console.log(res);
     })
